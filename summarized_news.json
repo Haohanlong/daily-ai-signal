@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+    "url": "https://github.com/juggler-ai/juggler",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 274,
+    "fetched_at": "2026-07-16T10:28:24.813987",
+    "summary_zh": "JUCE 框架创始人近日发布了开源 GUI 编程代理 Juggler，旨在通过 AI 自动化构建和管理图形界面开发任务。该工具将传统 GUI 框架的严谨性与现代 AI 的代码生成能力相结合，为开发者提供了一种全新的智能 UI 构建方案，值得开发者社区关注。"
+  },
+  {
+    "title": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting",
+    "url": "https://github.com/thephw/claude-meseeks",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 131,
+    "fetched_at": "2026-07-16T10:28:24.813980",
+    "summary_zh": "开发者为 Claude Code 插件添加了《瑞克和莫蒂》中“米西先生（Mr. Meeseeks）”的语音提示功能，当 AI 处于处理等待状态时会自动播放该角色台词。这一趣味性更新不仅提升了开发工具的交互体验，也展示了开发者如何通过个性化定制让冷冰冰的命令行工具变得生动有趣。"
+  },
+  {
+    "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+    "url": "https://brainless.swerdlow.dev",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 121,
+    "fetched_at": "2026-07-16T10:28:15.364249",
+    "summary_zh": "开源项目“Brainless”发布了一系列高度还原Claude Code、Codex及Grok风格的UI组件库。这些组件允许开发者快速在应用中集成具有顶尖AI产品质感的交互界面，显著降低了复刻主流AI工具视觉设计的开发成本。"
+  },
+  {
+    "title": "The US is advancing AI safety through state and federal action",
+    "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+    "source": "OpenAI Blog",
+    "summary_raw": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:27.718346",
+    "summary_zh": "美国正通过州级与联邦层面协同行动推进人工智能安全治理。OpenAI提出“逆向联邦制”构想，旨在利用各州先行先试的立法实践，为建立国家级AI安全治理框架奠定基础。"
+  },
+  {
+    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+    "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+    "source": "OpenAI Blog",
+    "summary_raw": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:27.718361",
+    "summary_zh": "OpenAI近日发布自动化红队测试系统GPT-Red，利用“自我博弈”（self-play）机制对模型进行对抗性训练。该系统旨在强化AI的安全对齐与防范提示词注入攻击的能力，为提升大模型的鲁棒性提供了高效的自动化解决方案。"
+  },
+  {
+    "title": "How to manage AI investments in the agentic era",
+    "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "source": "OpenAI Blog",
+    "summary_raw": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:27.718366",
+    "summary_zh": "随着人工智能从单纯的生成内容转向执行任务的“智能体”时代，企业需通过衡量每单位成本带来的实际工作量，来优化投资回报率。这一趋势凸显了从“追逐技术热点”向“聚焦高价值工作流与运营效率”转变的重要性，是企业在AI投资中保持竞争力的关键。"
+  },
+  {
+    "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+    "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:34.448145",
+    "summary_zh": "初创公司 Applied Computing 完成 2000 万美元 A 轮融资，旨在为石油、天然气及石化行业开发通用的全厂级人工智能模型。此举标志着大模型技术正加速向重工业领域渗透，通过构建行业底座模型，有望显著提升能源设施的运营效率与智能化水平。"
+  },
+  {
+    "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+    "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:34.448157",
+    "summary_zh": "微软正通过内部培训引导销售团队推广自研AI模型，并以此作为性价比更高的替代方案，建议客户减少对OpenAI和Anthropic模型的依赖。此举标志着微软在深度绑定合作伙伴的同时，开始在商业层面通过自研技术寻求竞争优势，以抢占更多AI算力资源与市场份额。"
+  },
+  {
+    "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+    "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+    "source": "TechCrunch AI",
+    "summary_raw": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:34.448161",
+    "summary_zh": "OpenAI推出了一款售价230美元的背光键盘，专为其AI编程应用Codex配套设计。此举正值OpenAI深陷与苹果的硬件商业机密盗窃法律纠纷之际，其进军硬件市场的野心引发了业界关注。"
+  },
+  {
+    "title": "Celebrating 25 years of visual search innovation",
+    "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+    "source": "Google AI Blog",
+    "summary_raw": "Google Images logo surrounded by illustrations of people searching for different images",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:36.807785",
+    "summary_zh": "谷歌搜索近期庆祝了图像搜索功能上线25周年。这一里程碑展示了谷歌从简单的关键词匹配到深度视觉理解的技术演进，凸显了AI驱动的视觉检索在提升信息获取效率方面的核心价值。"
+  },
+  {
+    "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "source": "Google AI Blog",
+    "summary_raw": "Managed agents feature bundle launch",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:36.807796",
+    "summary_zh": "Google 在 Gemini API 中大幅扩展了“托管智能体（Managed Agents）”功能，现已支持后台任务处理、远程 MCP（模型上下文协议）集成及更多高级功能。此举显著降低了开发者构建复杂自动化智能体的技术门槛，使其能够更高效地处理跨系统协作与长周期任务。"
+  },
+  {
+    "title": "The latest AI news we announced in June 2026",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "source": "Google AI Blog",
+    "summary_raw": "June Pixel Drop hero",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:28:36.807801",
+    "summary_zh": "谷歌在2026年6月的Pixel Drop更新中正式发布了一系列AI新功能，进一步完善了设备端的智能化体验。此次更新展示了谷歌将其前沿AI技术与硬件深度整合的最新进展，对提升Pixel系列用户的日常交互效率具有重要意义。"
+  },
+  {
+    "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "source": "VentureBeat AI",
+    "summary_raw": "<p>Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lock-in, and real-time fiscal control over token burn remains the exception.</p><p>This wave of Ven",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:29:11.773848",
+    "summary_zh": "针对101家企业的调研显示，目前大多数企业部署的所谓“AI智能体”实际上仍仅是聊天机器人，其真正的自动化编排能力远落后于行业预期。值得关注的是，Anthropic的Claude凭借在多步任务执行中的可靠性，已成为企业构建智能体平台时的首选模型，反映出市场正从单纯的模型选择转向对业务编排能力的深度整合。"
+  },
+  {
+    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+    "source": "VentureBeat AI",
+    "summary_raw": "<p>For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.</p><p>At its annual <a href=\"https://io.google/2026/\">I/O developer conference</a>, Google announced a <a href=\"https://blog.google/products-and-platforms/products/search/search-io-2026/\">sweeping redesign</a> of the search box itself — the liter",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:29:11.773863",
+    "summary_zh": "Google在I/O大会上宣布正式弃用沿用25年的经典“搜索框+蓝链”界面，转而采用以AI生成式内容为核心的交互模式。这一变革标志着Google搜索从单纯的信息索引工具向主动式AI回答引擎的重大转型，预示着互联网信息获取方式的深层演变。"
+  },
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "source": "VentureBeat AI",
+    "summary_raw": "<p><a href=\"https://railway.com/\">Railway</a>, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.</p><p><a href=\"https://tq.vc/\">TQ Ventures</a> led the round, with participation from <a href=\"https://fpvventures.com/\">FPV Ventures</a>",
+    "score": 0,
+    "fetched_at": "2026-07-16T10:29:11.773868",
+    "summary_zh": "云基础设施平台 Railway 近日完成 1 亿美元 B 轮融资，旨在利用其 AI 原生架构挑战 AWS 的市场地位。作为一家依靠口碑积累了 200 万开发者的初创公司，Railway 此次融资凸显了市场对更高效、AI 导向型云服务方案的迫切需求。"
+  }
+]

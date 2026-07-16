@@ -1,12 +1,8 @@
-# Python
+cat > .gitignore << 'EOF'
+.env
+.venv/
 __pycache__/
 *.pyc
-
-# Virtual Environment
-.venv/
-
-# macOS
 .DS_Store
-
-# VS Code
-.vscode/
+summary_cache.json
+EOF
