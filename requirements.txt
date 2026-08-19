@@ -1,0 +1,5 @@
+feedparser
+praw
+requests
+google-genai
+python-dotenv
