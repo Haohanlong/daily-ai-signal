@@ -103,9 +103,12 @@ def main():
 
     for i, item in enumerate(news, 1):
         url = item["url"]
-        if url in cache:
-            item["personas"] = cache[url]["personas"]
-            item["takeaways"] = cache[url]["takeaways"]
+        cached = cache.get(url)
+        # 兼容处理: 只有缓存是"新格式字典"才直接用,否则(包括旧格式的纯列表、或者任何异常数据)
+        # 一律当作没缓存过,重新跑一次分类,避免因为历史遗留数据格式不一致而崩溃
+        if isinstance(cached, dict) and "personas" in cached:
+            item["personas"] = cached["personas"]
+            item["takeaways"] = cached.get("takeaways", {})
             continue
 
         new_count += 1
