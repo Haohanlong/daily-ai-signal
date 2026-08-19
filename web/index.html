@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Signal · 每日AI信号</title>
+<meta name="description" content="面向中文读者的AI资讯精选,调到你关心的频道。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --void: #0B1120;
+    --panel: #131b30;
+    --panel-raised: #1a2440;
+    --line: #26314f;
+    --gold: #f2a93b;
+    --gold-dim: #7a5a26;
+    --cyan: #5fd9c7;
+    --text-primary: #edeff5;
+    --text-muted: #8891a8;
+    --text-faint: #5a6482;
+
+    --font-display: 'Space Grotesk', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    --font-cn: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+    --max-w: 760px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--void);
+    background-image:
+      radial-gradient(ellipse 900px 500px at 50% -10%, rgba(242,169,59,0.09), transparent 60%),
+      radial-gradient(ellipse 700px 400px at 90% 10%, rgba(95,217,199,0.06), transparent 60%);
+    color: var(--text-primary);
+    font-family: var(--font-cn);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  /* ---------- Header / Hero ---------- */
+
+  header.hero {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 48px 20px 32px;
+  }
+
+  .brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: var(--text-primary);
+    text-transform: uppercase;
+  }
+
+  .brand .mark {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 0 0 3px rgba(242,169,59,0.18);
+  }
+
+  .on-air {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--cyan);
+  }
+
+  .on-air .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--cyan);
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.35; transform: scale(0.75); }
+  }
+
+  /* waveform */
+  .waveform {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 32px;
+    margin-bottom: 22px;
+  }
+
+  .waveform span {
+    display: block;
+    width: 3px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--gold), var(--gold-dim));
+    animation: wave 1.6s ease-in-out infinite;
+  }
+
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.3); }
+    50% { transform: scaleY(1); }
+  }
+
+  h1.headline {
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+
+  h1.headline .accent { color: var(--gold); }
+
+  .subhead {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin: 0 0 22px;
+    max-width: 52ch;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 22px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-faint);
+    letter-spacing: 0.02em;
+    flex-wrap: wrap;
+  }
+
+  .stats-row b {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  /* ---------- Tuner ---------- */
+
+  .tuner {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 20px 28px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, var(--void) 70%, rgba(11,17,32,0.0));
+    padding-top: 14px;
+  }
+
+  .tuner-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-faint);
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .channels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .channel-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 8px 14px;
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+    font-family: var(--font-cn);
+    color: var(--text-muted);
+    user-select: none;
+  }
+
+  .channel-btn .code {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+
+  .channel-btn .label {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .channel-btn:hover {
+    border-color: var(--gold-dim);
+  }
+
+  .channel-btn.active {
+    background: transparent;
+    border-color: var(--gold);
+    color: var(--text-primary);
+  }
+
+  .channel-btn.active .code { color: var(--gold); opacity: 1; }
+
+  /* ---------- Feed ---------- */
+
+  main {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 8px 20px 80px;
+  }
+
+  .card {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--line);
+    padding: 24px 2px;
+    margin-bottom: 0;
+    animation: rise 0.5s ease backwards;
+    transition: opacity 0.15s ease;
+  }
+
+  .card:last-child { border-bottom: none; }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    gap: 12px;
+  }
+
+  .card-meta .chips {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .card-meta .chip {
+    color: var(--text-faint);
+    letter-spacing: 0.04em;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 2px 9px;
+  }
+
+  .card-meta .source {
+    color: var(--text-faint);
+  }
+
+  .card-title {
+    font-size: 16.5px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 8px;
+  }
+
+  .card-title a { text-decoration: none; }
+  .card-title a:hover { color: var(--gold); }
+
+  .card-summary {
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+  }
+
+  .takeaways {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 0 14px;
+  }
+
+  .takeaway {
+    display: flex;
+    gap: 10px;
+    padding-left: 12px;
+    border-left: 2px solid var(--gold-dim);
+  }
+
+  .takeaway .who {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    padding-top: 1px;
+  }
+
+  .takeaway .what {
+    font-size: 13.5px;
+    color: var(--text-primary);
+    line-height: 1.6;
+    opacity: 0.88;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .read-more {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--cyan);
+    text-decoration: none;
+  }
+
+  .read-more:hover { text-decoration: underline; }
+
+  .heat {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-faint);
+  }
+
+  /* ---------- Empty state ---------- */
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+  }
+
+  .empty .glyph {
+    font-family: var(--font-mono);
+    font-size: 28px;
+    color: var(--text-faint);
+    margin-bottom: 10px;
+  }
+
+  .empty button {
+    margin-top: 16px;
+    background: var(--gold);
+    color: var(--void);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: var(--font-cn);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  /* ---------- Onboarding modal ---------- */
+
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(6,9,18,0.72);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 20px;
+    animation: fadeIn 0.25s ease;
+  }
+
+  .modal-overlay.hidden { display: none; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .modal-card {
+    background: var(--panel-raised);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 32px 28px;
+    max-width: 420px;
+    width: 100%;
+    animation: rise 0.35s ease;
+  }
+
+  .modal-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .modal-card h2 {
+    font-size: 22px;
+    margin: 0 0 8px;
+    font-weight: 700;
+  }
+
+  .modal-card p {
+    color: var(--text-muted);
+    font-size: 13.5px;
+    line-height: 1.6;
+    margin: 0 0 22px;
+  }
+
+  .modal-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .modal-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+    user-select: none;
+  }
+
+  .modal-option:hover { border-color: var(--gold-dim); }
+
+  .modal-option.active {
+    border-color: var(--gold);
+    background: rgba(242,169,59,0.08);
+  }
+
+  .modal-option .check {
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--text-faint);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: var(--void);
+  }
+
+  .modal-option.active .check {
+    background: var(--gold);
+    border-color: var(--gold);
+  }
+
+  .modal-option .code {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-faint);
+  }
+
+  .modal-option .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+
+  #modal-confirm {
+    width: 100%;
+    background: var(--gold);
+    color: var(--void);
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    font-family: var(--font-cn);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+  }
+
+  #modal-confirm:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+
+  .modal-skip {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-faint);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  footer {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 20px 20px 60px;
+    color: var(--text-faint);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-align: center;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="brand-row">
+    <div class="brand"><span class="mark"></span> Daily AI Signal</div>
+    <div class="on-air"><span class="dot"></span> ON AIR</div>
+  </div>
+
+  <div class="waveform" id="waveform"></div>
+
+  <h1 class="headline">每天3分钟,收好<span class="accent">AI世界的信号</span></h1>
+  <p class="subhead">自动抓取 Hacker News 与海外AI一手信息源,中文摘要,只看对你有用的那部分——不用再刷十个信息源。</p>
+
+  <div class="stats-row">
+    <span>今日精选 <b id="stat-total">–</b> 条</span>
+    <span>正在接收 <b id="stat-active">–</b> 种身份</span>
+    <span id="stat-updated">更新于 –</span>
+  </div>
+</header>
+
+<div class="tuner">
+  <div class="tuner-label">你是谁 · 点击切换,可多选</div>
+  <div class="channels" id="channels"></div>
+</div>
+
+<main id="feed"></main>
+
+<footer>
+  DAILY AI SIGNAL · 由 <a href="#" style="color:var(--gold)">一个学生</a> 独立开发 · 数据来源 Hacker News / OpenAI / Google AI / TechCrunch / Hugging Face / VentureBeat
+</footer>
+
+<div class="modal-overlay hidden" id="onboarding">
+  <div class="modal-card">
+    <div class="modal-eyebrow">开始之前</div>
+    <h2>你是谁?</h2>
+    <p>选一个或多个身份,我们会优先把和你相关的解读放到最前面——随时可以在页面上方重新调整。</p>
+    <div class="modal-options" id="modal-options"></div>
+    <button id="modal-confirm" disabled>开始接收信号</button>
+    <span class="modal-skip" id="modal-skip">先随便看看,不选了</span>
+  </div>
+</div>
+
+<script>
+// ---------- 受众体系(与 classify.py 的 PERSONAS 保持一致) ----------
+const CHANNEL_ORDER = ["founder", "student", "creator", "developer"];
+const CHANNEL_META = {
+  founder:   { code: "CH.01", label: "创业者" },
+  student:   { code: "CH.02", label: "学生" },
+  creator:   { code: "CH.03", label: "内容创作者" },
+  developer: { code: "CH.04", label: "程序员" },
+};
+
+const STORAGE_KEY = "daily-ai-signal:channels";
+
+// 内嵌的fallback数据:即使脱离服务器直接双击打开也能演示;
+// 部署后优先尝试从 ./data.json 读取每日更新的真实数据。
+const FALLBACK_DATA = [{"title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE", "url": "https://github.com/juggler-ai/juggler", "source": "Hacker News", "summary_raw": "", "score": 274, "fetched_at": "2026-07-16T10:28:24.813987", "summary_zh": "JUCE 框架创始人近日发布了开源 GUI 编程代理 Juggler，旨在通过 AI 自动化构建和管理图形界面开发任务。该工具将传统 GUI 框架的严谨性与现代 AI 的代码生成能力相结合，为开发者提供了一种全新的智能 UI 构建方案，值得开发者社区关注。", "personas": ["developer", "student"], "persona_labels": ["程序员"], "takeaways": {"developer": "开源GUI编程代理值得直接拉下来试用,尤其是想省掉手写界面代码时间的场景。", "student": "开源项目是了解「AI怎么被用来写代码」这个方向实际进展的好窗口。"}}, {"title": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting", "url": "https://github.com/thephw/claude-meseeks", "source": "Hacker News", "summary_raw": "", "score": 131, "fetched_at": "2026-07-16T10:28:24.813980", "summary_zh": "开发者为 Claude Code 插件添加了《瑞克和莫蒂》中“米西先生（Mr. Meeseeks）”的语音提示功能，当 AI 处于处理等待状态时会自动播放该角色台词。这一趣味性更新不仅提升了开发工具的交互体验，也展示了开发者如何通过个性化定制让冷冰冰的命令行工具变得生动有趣。", "personas": ["developer", "creator"], "persona_labels": ["程序员", "内容创作者"], "takeaways": {"developer": "小众但有趣的开发者玩具,适合了解Claude Code插件生态能做到什么程度。", "creator": "这种「AI工具整活」类内容天然自带传播性,可以直接拿来做一条轻松向短视频。"}}, {"title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok", "url": "https://brainless.swerdlow.dev", "source": "Hacker News", "summary_raw": "", "score": 121, "fetched_at": "2026-07-16T10:28:15.364249", "summary_zh": "开源项目“Brainless”发布了一系列高度还原Claude Code、Codex及Grok风格的UI组件库。这些组件允许开发者快速在应用中集成具有顶尖AI产品质感的交互界面，显著降低了复刻主流AI工具视觉设计的开发成本。", "personas": ["developer", "student"], "persona_labels": ["程序员"], "takeaways": {"developer": "如果你在用shadcn做前端,这套组件能省下不少还原Claude Code风格UI的时间。", "student": "看看开发者社区围绕AI工具生态在造什么周边,是了解生态热度的一个角度。"}}, {"title": "The US is advancing AI safety through state and federal action", "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action", "source": "OpenAI Blog", "summary_raw": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.", "score": 0, "fetched_at": "2026-07-16T10:28:27.718346", "summary_zh": "美国正通过州级与联邦层面协同行动推进人工智能安全治理。OpenAI提出“逆向联邦制”构想，旨在利用各州先行先试的立法实践，为建立国家级AI安全治理框架奠定基础。", "personas": ["founder", "student"], "persona_labels": ["创业者", "学生"], "takeaways": {"founder": "监管动向会直接影响你产品的合规成本,建议关注具体州级立法是否涉及你的业务领域。", "student": "了解AI政策走向,是判断这个行业未来往哪走的重要信号,值得当背景知识积累。"}}, {"title": "GPT-Red: Unlocking Self-Improvement for Robustness", "url": "https://openai.com/index/unlocking-self-improvement-gpt-red", "source": "OpenAI Blog", "summary_raw": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.", "score": 0, "fetched_at": "2026-07-16T10:28:27.718361", "summary_zh": "OpenAI近日发布自动化红队测试系统GPT-Red，利用“自我博弈”（self-play）机制对模型进行对抗性训练。该系统旨在强化AI的安全对齐与防范提示词注入攻击的能力，为提升大模型的鲁棒性提供了高效的自动化解决方案。", "personas": ["developer", "student"], "persona_labels": ["程序员", "学生"], "takeaways": {"developer": "自我改进型鲁棒性训练是当前研究热点,论文方法论值得读一下摘要部分。", "student": "如果你在准备AI相关的申请或作品集,这类前沿研究方向是很好的关注点。"}}, {"title": "How to manage AI investments in the agentic era", "url": "https://openai.com/index/managing-ai-investments-in-agentic-era", "source": "OpenAI Blog", "summary_raw": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.", "score": 0, "fetched_at": "2026-07-16T10:28:27.718366", "summary_zh": "随着人工智能从单纯的生成内容转向执行任务的“智能体”时代，企业需通过衡量每单位成本带来的实际工作量，来优化投资回报率。这一趋势凸显了从“追逐技术热点”向“聚焦高价值工作流与运营效率”转变的重要性，是企业在AI投资中保持竞争力的关键。", "personas": ["founder", "student"], "persona_labels": ["创业者"], "takeaways": {"founder": "如果你在给公司做AI相关的投资决策,这篇提供了一个可以参考的决策框架。", "student": "了解企业怎么看待AI投资决策,对理解这个行业的商业逻辑很有帮助。"}}, {"title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant", "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/", "source": "TechCrunch AI", "summary_raw": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.", "score": 0, "fetched_at": "2026-07-16T10:28:34.448145", "summary_zh": "初创公司 Applied Computing 完成 2000 万美元 A 轮融资，旨在为石油、天然气及石化行业开发通用的全厂级人工智能模型。此举标志着大模型技术正加速向重工业领域渗透，通过构建行业底座模型，有望显著提升能源设施的运营效率与智能化水平。", "personas": ["founder", "student"], "persona_labels": ["创业者"], "takeaways": {"founder": "垂直行业(能源)+AI的组合是个值得关注的细分赛道,可能有类似的机会空间。", "student": "AI往传统行业(能源)渗透的案例,能帮你建立「AI不只是聊天机器人」的更完整认知。"}}, {"title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic", "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/", "source": "TechCrunch AI", "summary_raw": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.", "score": 0, "fetched_at": "2026-07-16T10:28:34.448157", "summary_zh": "微软正通过内部培训引导销售团队推广自研AI模型，并以此作为性价比更高的替代方案，建议客户减少对OpenAI和Anthropic模型的依赖。此举标志着微软在深度绑定合作伙伴的同时，开始在商业层面通过自研技术寻求竞争优势，以抢占更多AI算力资源与市场份额。", "personas": ["founder", "creator", "student"], "persona_labels": ["创业者", "内容创作者"], "takeaways": {"founder": "巨头之间的销售话术战说明竞争已经从产品层面打到了客户心智层面,值得留意打法。", "creator": "大厂互撕类新闻自带热度,是做「吃瓜向」AI内容的好素材。", "student": "大厂之间怎么竞争客户心智,是了解商业世界运作方式的生动案例。"}}, {"title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex", "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/", "source": "TechCrunch AI", "summary_raw": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.", "score": 0, "fetched_at": "2026-07-16T10:28:34.448161", "summary_zh": "OpenAI推出了一款售价230美元的背光键盘，专为其AI编程应用Codex配套设计。此举正值OpenAI深陷与苹果的硬件商业机密盗窃法律纠纷之际，其进军硬件市场的野心引发了业界关注。", "personas": ["creator", "founder", "student"], "persona_labels": ["内容创作者", "创业者"], "takeaways": {"creator": "硬件官司+高价键盘,自带反差和话题性,适合做一条犀利点评类短视频。", "founder": "看看OpenAI怎么把硬件和法律纠纷同时处理,对做硬件周边的团队有参考价值。", "student": "从一场硬件官司能看出AI公司现在也在往消费级硬件延伸,值得留意这个趋势。"}}, {"title": "Celebrating 25 years of visual search innovation", "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/", "source": "Google AI Blog", "summary_raw": "Google Images logo surrounded by illustrations of people searching for different images", "score": 0, "fetched_at": "2026-07-16T10:28:36.807785", "summary_zh": "谷歌搜索近期庆祝了图像搜索功能上线25周年。这一里程碑展示了谷歌从简单的关键词匹配到深度视觉理解的技术演进，凸显了AI驱动的视觉检索在提升信息获取效率方面的核心价值。", "personas": ["student", "creator"], "persona_labels": ["学生", "内容创作者"], "takeaways": {"student": "了解一个产品线20多年的演进史,是理解「技术产品如何持续迭代」的好案例。", "creator": "怀旧向内容(「XX年前」系列)一直是社交媒体上稳定吃流量的选题。"}}, {"title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/", "source": "Google AI Blog", "summary_raw": "Managed agents feature bundle launch", "score": 0, "fetched_at": "2026-07-16T10:28:36.807796", "summary_zh": "Google 在 Gemini API 中大幅扩展了“托管智能体（Managed Agents）”功能，现已支持后台任务处理、远程 MCP（模型上下文协议）集成及更多高级功能。此举显著降低了开发者构建复杂自动化智能体的技术门槛，使其能够更高效地处理跨系统协作与长周期任务。", "personas": ["developer", "founder", "student"], "persona_labels": ["程序员", "创业者"], "takeaways": {"developer": "Managed Agents新增的后台任务能力,直接影响你要不要现在就迁移到这套API。", "founder": "企业级agent托管能力增强,意味着自建agent基础设施的必要性在下降。", "student": "Agent托管这个概念现在很热,提前了解能帮你更快跟上行业话语体系。"}}, {"title": "The latest AI news we announced in June 2026", "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/", "source": "Google AI Blog", "summary_raw": "June Pixel Drop hero", "score": 0, "fetched_at": "2026-07-16T10:28:36.807801", "summary_zh": "谷歌在2026年6月的Pixel Drop更新中正式发布了一系列AI新功能，进一步完善了设备端的智能化体验。此次更新展示了谷歌将其前沿AI技术与硬件深度整合的最新进展，对提升Pixel系列用户的日常交互效率具有重要意义。", "personas": ["student"], "persona_labels": ["学生"], "takeaways": {"student": "月度汇总类内容适合当作「补课」素材,把这个月错过的AI大事一次性看完。"}}, {"title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents", "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents", "source": "VentureBeat AI", "summary_raw": "<p>Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is deliberately hybrid to avoid lock-in, and real-time fiscal control over token burn remains the exception.</p><p>This wave of Ven", "score": 0, "fetched_at": "2026-07-16T10:29:11.773848", "summary_zh": "针对101家企业的调研显示，目前大多数企业部署的所谓“AI智能体”实际上仍仅是聊天机器人，其真正的自动化编排能力远落后于行业预期。值得关注的是，Anthropic的Claude凭借在多步任务执行中的可靠性，已成为企业构建智能体平台时的首选模型，反映出市场正从单纯的模型选择转向对业务编排能力的深度整合。", "personas": ["founder", "developer", "student"], "persona_labels": ["创业者", "程序员"], "takeaways": {"founder": "企业agent编排的落地缺口是个真实痛点,可能是个值得切入的产品方向。", "developer": "了解企业级agent编排现在卡在哪,有助于判断自己做的工具解决了哪块拼图。", "student": "企业级AI落地卡在哪里,是判断这个行业「火热」背后有多少真实落地的好参考。"}}, {"title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.", "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think", "source": "VentureBeat AI", "summary_raw": "<p>For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.</p><p>At its annual <a href=\"https://io.google/2026/\">I/O developer conference</a>, Google announced a <a href=\"https://blog.google/products-and-platforms/products/search/search-io-2026/\">sweeping redesign</a> of the search box itself — the liter", "score": 0, "fetched_at": "2026-07-16T10:29:11.773863", "summary_zh": "Google在I/O大会上宣布正式弃用沿用25年的经典“搜索框+蓝链”界面，转而采用以AI生成式内容为核心的交互模式。这一变革标志着Google搜索从单纯的信息索引工具向主动式AI回答引擎的重大转型，预示着互联网信息获取方式的深层演变。", "personas": ["creator", "student"], "persona_labels": ["内容创作者", "学生"], "takeaways": {"creator": "国民级产品的界面改版永远自带讨论度,适合做「体验测评」类内容。", "student": "从一个搜索框的改版能看出大厂现在怎么理解AI和用户交互方式的关系。"}}, {"title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure", "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud", "source": "VentureBeat AI", "summary_raw": "<p><a href=\"https://railway.com/\">Railway</a>, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.</p><p><a href=\"https://tq.vc/\">TQ Ventures</a> led the round, with participation from <a href=\"https://fpvventures.com/\">FPV Ventures</a>", "score": 0, "fetched_at": "2026-07-16T10:29:11.773868", "summary_zh": "云基础设施平台 Railway 近日完成 1 亿美元 B 轮融资，旨在利用其 AI 原生架构挑战 AWS 的市场地位。作为一家依靠口碑积累了 200 万开发者的初创公司，Railway 此次融资凸显了市场对更高效、AI 导向型云服务方案的迫切需求。", "personas": ["founder", "student"], "persona_labels": ["创业者"], "takeaways": {"founder": "云基础设施赛道又跑出一笔大额融资,说明「AI原生」叙事在这个方向还有资本认可。", "student": "融资新闻能帮你建立「资本在往哪投」的行业地图,是很好的背景知识。"}}];
+
+function loadSelectedChannels() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) return new Set(JSON.parse(saved));
+  } catch (e) {}
+  return null; // null = 还没做过选择,需要展示引导弹窗
+}
+
+function saveSelectedChannels(set) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify([...set]));
+  } catch (e) {}
+}
+
+function buildWaveform() {
+  const el = document.getElementById("waveform");
+  const bars = 42;
+  const barEls = [];
+  for (let i = 0; i < bars; i++) {
+    const bar = document.createElement("span");
+    const base = 6 + Math.round(Math.random() * 16);
+    bar.dataset.base = base;
+    bar.style.height = base + "px";
+    bar.style.animationDelay = (Math.random() * 1.6).toFixed(2) + "s";
+    el.appendChild(bar);
+    barEls.push(bar);
+  }
+  // 信号被鼠标"扰动":越靠近鼠标的波形条,暂停自身的呼吸动画,改由光标位置直接驱动高度
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduceMotion) return;
+
+  el.addEventListener("mousemove", (e) => {
+    barEls.forEach((bar) => {
+      const bRect = bar.getBoundingClientRect();
+      const barCenter = bRect.left + bRect.width / 2;
+      const dist = Math.abs(e.clientX - barCenter);
+      const boost = Math.max(0, 26 - dist * 0.35);
+      bar.style.animationPlayState = boost > 1 ? "paused" : "running";
+      if (boost > 1) bar.style.height = (Number(bar.dataset.base) + boost) + "px";
+      else bar.style.height = bar.dataset.base + "px";
+    });
+  });
+  el.addEventListener("mouseleave", () => {
+    barEls.forEach(bar => {
+      bar.style.animationPlayState = "running";
+      bar.style.height = bar.dataset.base + "px";
+    });
+  });
+}
+
+function formatTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mm = String(d.getMinutes()).padStart(2, "0");
+  return `${hh}:${mm}`;
+}
+
+function itemPersonas(item) {
+  return Array.isArray(item.personas) && item.personas.length ? item.personas : ["student"];
+}
+
+function matchesSelected(item, selected) {
+  return itemPersonas(item).some(p => selected.has(p));
+}
+
+function renderChannels(data, selected) {
+  const present = CHANNEL_ORDER.filter(c => data.some(item => itemPersonas(item).includes(c)));
+  const wrap = document.getElementById("channels");
+  wrap.innerHTML = "";
+  present.forEach(c => {
+    const meta = CHANNEL_META[c];
+    const btn = document.createElement("div");
+    btn.className = "channel-btn" + (selected.has(c) ? " active" : "");
+    btn.innerHTML = `<span class="code">${meta.code}</span><span class="label">${meta.label}</span>`;
+    btn.addEventListener("click", () => {
+      if (selected.has(c)) selected.delete(c); else selected.add(c);
+      saveSelectedChannels(selected);
+      render(data, selected);
+    });
+    wrap.appendChild(btn);
+  });
+  return present;
+}
+
+function renderFeed(data, selected) {
+  const feed = document.getElementById("feed");
+  feed.innerHTML = "";
+  const filtered = data.filter(item => matchesSelected(item, selected));
+
+  if (filtered.length === 0) {
+    feed.innerHTML = `
+      <div class="empty">
+        <div class="glyph">···</div>
+        <div>信号已静音——当前没有选中任何身份</div>
+        <button id="select-all-btn">接收全部信号</button>
+      </div>`;
+    document.getElementById("select-all-btn").addEventListener("click", () => {
+      CHANNEL_ORDER.forEach(c => selected.add(c));
+      saveSelectedChannels(selected);
+      render(data, selected);
+    });
+    return;
+  }
+
+  filtered.forEach((item, i) => {
+    const personas = itemPersonas(item);
+    const chips = personas
+      .map(p => CHANNEL_META[p] ? `<span class="chip">${CHANNEL_META[p].code} · ${CHANNEL_META[p].label}</span>` : "")
+      .join("");
+
+    // 只展示"当前选中的身份"对应的解读——这是个性化真正体现的地方
+    const takeaways = (item.takeaways && typeof item.takeaways === "object") ? item.takeaways : {};
+    const relevantTakeaways = personas
+      .filter(p => selected.has(p) && takeaways[p])
+      .map(p => `<div class="takeaway"><span class="who">对${CHANNEL_META[p].label}来说</span><span class="what">${takeaways[p]}</span></div>`)
+      .join("");
+
+    const card = document.createElement("article");
+    card.className = "card";
+    card.style.animationDelay = Math.min(i * 0.04, 0.4) + "s";
+    card.innerHTML = `
+      <div class="card-meta">
+        <span class="chips">${chips}</span>
+        <span class="source">${formatTime(item.fetched_at)} · ${item.source}</span>
+      </div>
+      <h3 class="card-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h3>
+      <p class="card-summary">${item.summary_zh || ""}</p>
+      ${relevantTakeaways ? `<div class="takeaways">${relevantTakeaways}</div>` : ""}
+      <div class="card-footer">
+        <a class="read-more" href="${item.url}" target="_blank" rel="noopener">查看原文 →</a>
+        ${item.score ? `<span class="heat">◆ ${item.score}</span>` : "<span></span>"}
+      </div>
+    `;
+    feed.appendChild(card);
+  });
+}
+
+function render(data, selected) {
+  const present = renderChannels(data, selected);
+  renderFeed(data, selected);
+  document.getElementById("stat-total").textContent = data.filter(i => matchesSelected(i, selected)).length;
+  document.getElementById("stat-active").textContent = `${selected.size}/${present.length}`;
+  const latest = data.reduce((acc, i) => (i.fetched_at && i.fetched_at > acc ? i.fetched_at : acc), "");
+  document.getElementById("stat-updated").textContent = latest ? `更新于 ${formatTime(latest)}` : "";
+}
+
+async function init() {
+  buildWaveform();
+  let data = FALLBACK_DATA;
+  try {
+    const resp = await fetch("data.json", { cache: "no-store" });
+    if (resp.ok) {
+      const fresh = await resp.json();
+      if (Array.isArray(fresh) && fresh.length) data = fresh;
+    }
+  } catch (e) {
+    // 离线/本地打开时静默回退到内嵌数据
+  }
+  const allChannels = CHANNEL_ORDER.filter(c => data.some(item => itemPersonas(item).includes(c)));
+  const saved = loadSelectedChannels();
+
+  if (saved) {
+    render(data, saved);
+  } else {
+    showOnboarding(data, allChannels);
+  }
+}
+
+function showOnboarding(data, allChannels) {
+  const overlay = document.getElementById("onboarding");
+  const optionsWrap = document.getElementById("modal-options");
+  const confirmBtn = document.getElementById("modal-confirm");
+  const skipEl = document.getElementById("modal-skip");
+  const picked = new Set();
+
+  overlay.classList.remove("hidden");
+
+  allChannels.forEach(c => {
+    const meta = CHANNEL_META[c];
+    const opt = document.createElement("div");
+    opt.className = "modal-option";
+    opt.innerHTML = `
+      <span class="check"></span>
+      <span class="code">${meta.code}</span>
+      <span class="label">${meta.label}</span>
+    `;
+    opt.addEventListener("click", () => {
+      if (picked.has(c)) picked.delete(c); else picked.add(c);
+      opt.classList.toggle("active");
+      confirmBtn.disabled = picked.size === 0;
+    });
+    optionsWrap.appendChild(opt);
+  });
+
+  confirmBtn.addEventListener("click", () => {
+    if (picked.size === 0) return;
+    saveSelectedChannels(picked);
+    overlay.classList.add("hidden");
+    render(data, picked);
+  });
+
+  skipEl.addEventListener("click", () => {
+    const all = new Set(allChannels);
+    saveSelectedChannels(all);
+    overlay.classList.add("hidden");
+    render(data, all);
+  });
+}
+
+init();
+</script>
+
+</body>
+</html>
