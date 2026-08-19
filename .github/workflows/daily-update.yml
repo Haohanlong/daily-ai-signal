@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch: {}  # 允许在GitHub网页上手动点一下立刻触发,不用等定时
 
+permissions:
+  contents: write  # 需要写入权限才能把更新后的data.json推回仓库
+
 jobs:
   update:
     runs-on: ubuntu-latest
