@@ -1,40 +1,19 @@
 [
   {
-    "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-    "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 762,
-    "fetched_at": "2026-08-25T01:22:16.532357",
-    "summary_zh": "尽管 Anthropic 推出了性能最强的 Claude 3.5 模型，但在吸引用户方面却面临挑战。这反映了当前 AI 市场的微妙趋势：相比于追求顶尖算力，大多数用户更青睐性价比更高且易于部署的轻量化工具。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "在产品规划时别盲目堆叠高昂的模型参数，关注轻量化部署和高性价比方案更能切中当前B端用户的核心需求。",
-      "creator": "这说明大模型领域正从单纯比拼性能转为比拼体验，制作AI测评内容时可以侧重对比各模型的成本与实际好用程度。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
     "title": "DeepSeek-v4-flash-vision-exp",
     "url": "https://api-docs.deepseek.com/guides/vision/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 496,
-    "fetched_at": "2026-08-25T01:22:16.781111",
-    "summary_zh": "DeepSeek发布了视觉实验模型DeepSeek-v4-flash-vision-exp，该模型在保持高效推理速度的同时，显著强化了对多模态图像信息的理解与处理能力。此次更新进一步完善了DeepSeek的视觉生态布局，为开发者提供了更具竞争力的轻量级视觉模型选择。",
+    "score": 498,
+    "fetched_at": "2026-08-26T01:25:38.395901",
+    "summary_zh": "DeepSeek近日发布了实验性模型DeepSeek-v4-flash-vision-exp。该模型在保持多模态视觉处理能力的同时，显著提升了推理速度与响应效率，为高性能视觉AI应用提供了新的技术探索方向。",
     "personas": [
       "developer",
       "founder"
     ],
     "takeaways": {
-      "developer": "这是一款低成本高效率的视觉处理利器，能帮你快速实现更复杂的图像识别功能，降低云端算力消耗。",
-      "founder": "如果你在做多模态应用，这款模型能显著压低推理成本，用更具性价比的方案替代昂贵的商业闭源模型。"
+      "developer": "该模型能大幅降低视觉任务的延迟，非常适合构建需要实时分析或处理大量图片的自动化AI应用。",
+      "founder": "视觉处理效率的提升能显著降低算力成本，这意味着在视频分析或复杂图文识别领域的AI落地将更有盈利空间。"
     },
     "persona_labels": [
       "程序员",
@@ -42,20 +21,41 @@
     ]
   },
   {
-    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-    "url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "title": "Anthropic tells staff to work from home due to possible security team strike",
+    "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 116,
+    "fetched_at": "2026-08-26T01:25:38.180341",
+    "summary_zh": "由于安全团队计划举行罢工，人工智能公司 Anthropic 已通知员工改为居家办公。这一举措反映了科技行业在快速发展的同时，内部劳资关系及核心职能部门的稳定性正面临日益严峻的挑战。",
+    "personas": [
+      "founder",
+      "creator"
+    ],
+    "takeaways": {
+      "founder": "在AI初创公司快速扩张期，要重视安全与运维团队的岗位稳定性，避免因核心岗位流失引发严重的业务连续性风险。",
+      "creator": "这是一则关于AI行业冷知识的绝佳素材，你可以从AI公司也会闹罢工的角度，聊聊顶级科技公司内部的劳资矛盾。"
+    },
+    "persona_labels": [
+      "创业者",
+      "内容创作者"
+    ]
+  },
+  {
+    "title": "The full stack behind abundant intelligence",
+    "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
     "source": "OpenAI Blog",
-    "summary_raw": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "summary_raw": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.374962",
-    "summary_zh": "Kiro平台现已集成GPT-5.6模型，支持开发者在软件规划、构建、评审及测试全流程中获得更优的性价比。此次更新在提升开发效率的同时显著降低了成本，是AI辅助编程领域性能与经济性平衡的重要进展。",
+    "fetched_at": "2026-08-26T01:25:38.989821",
+    "summary_zh": "OpenAI首席财务官Sarah Friar指出，算力芯片、计算基础设施、模型算法及终端产品正在实现协同进化。这种全栈式的技术迭代不仅能以更低成本提升智能规模，还标志着人工智能正加速从理论研究迈向大规模实用化阶段。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "通过接入高性价比的GPT-5.6模型，你能直接降低产品研发的算力成本，提升团队交付效率。",
-      "developer": "这个新模型能覆盖代码全生命周期，你可以用更低的API费用完成更复杂的编程与测试任务，显著优化开发预算。"
+      "founder": "别只盯着模型本身，未来核心竞争力在于能否整合算力与应用，构建一套低成本高效率的AI落地闭环。",
+      "developer": "AI开发正向全栈化演进，你需要关注基础设施对算法的底层优化，这将直接决定你代码的运行性能与成本。"
     },
     "persona_labels": [
       "创业者",
@@ -63,20 +63,41 @@
     ]
   },
   {
-    "title": "Introducing AI Futures",
-    "url": "https://openai.com/index/introducing-ai-futures",
+    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "url": "https://openai.com/index/jalapeno-first-results",
     "source": "OpenAI Blog",
-    "summary_raw": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+    "summary_raw": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.374975",
-    "summary_zh": "OpenAI 发布了全新的博客专栏“AI Futures”，旨在探讨人工智能如何重塑全球权力、治理体系、经济结构及个人自由。这一举措标志着 OpenAI 开始系统性地分析技术演进对社会深层结构的变革影响，其后续输出将为理解 AI 时代的宏观挑战提供重要参考。",
+    "fetched_at": "2026-08-26T01:25:38.989840",
+    "summary_zh": "OpenAI 推出了自研推理芯片 Jalapeño，在测试中表现出业界领先的处理速度和能效比。该芯片通过降低延迟并提升吞吐量，旨在优化现代大模型在复杂任务中的运行效率，标志着 OpenAI 在 AI 基础设施底层硬件布局上的重大进展。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "OpenAI向上游硬件渗透意味着未来AI算力成本将进一步降低，你的项目应着眼于基于更低推理成本的商业模式创新。",
+      "developer": "OpenAI正尝试从软件架构到底层芯片全栈优化，这预示着未来模型部署可能不再依赖通用GPU，你需要关注配套的适配工具链。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "source": "TechCrunch AI",
+    "summary_raw": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+    "score": 0,
+    "fetched_at": "2026-08-26T01:25:39.217718",
+    "summary_zh": "机器人初创公司 Generalist 近期完成 2 亿美元融资，估值在短短数月内从 20 亿美元跃升至 30 亿美元。这一进展凸显了资本市场对物理 AI（Physical AI）领域的持续追捧，显示出该赛道正处于高速增长阶段。",
     "personas": [
       "founder",
       "student"
     ],
     "takeaways": {
-      "founder": "这是理解未来监管与宏观政策风向的官方窗口，能帮你提前洞察AI行业可能面临的准入障碍或合规红利。",
-      "student": "通过关注这些行业深度洞察，你能跳出代码本身，从社会结构视角理解AI对未来的宏观影响力，积累格局认知。"
+      "founder": "资本正疯狂涌入具身智能，这意味着物理AI已进入规模化验证期，相关产业链的早期布局窗口期正在收窄。",
+      "student": "机器人不仅是硬件，更是AI落地的终极载体，这个赛道正处于爆发前夜，值得作为未来职业规划的重点关注。"
     },
     "persona_labels": [
       "创业者",
@@ -84,41 +105,41 @@
     ]
   },
   {
-    "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-    "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+    "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+    "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
     "source": "TechCrunch AI",
-    "summary_raw": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+    "summary_raw": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.601197",
-    "summary_zh": "曾被称为华尔街焦点的人工智能对冲基金 Situational Awareness 目前正面临美国证券交易委员会（SEC）的调查。该机构曾一度濒临崩盘，此次监管介入凸显了高风险AI量化交易在监管合规与系统稳定性方面存在的隐忧，引发市场对同类基金的广泛关注。",
+    "fetched_at": "2026-08-26T01:25:39.217729",
+    "summary_zh": "OpenAI数据中心负责人Malone宣布离职，延续了该公司近期核心高管频繁变动的人才流失态势。此次人事调整发生于OpenAI重组基础设施部门并强化内部管理架构之际，显示出公司在资源部署与架构调整期的内部动荡。",
     "personas": [
       "founder",
-      "student"
+      "developer"
     ],
     "takeaways": {
-      "founder": "警惕在激进采用AI策略时，若缺乏严密风控和合规兜底，极易因系统性风险导致资金链断裂及监管审查。",
-      "student": "了解AI在量化金融领域的脆弱性，明白AI交易并非“印钞机”，合规监管是决定这类金融技术生死的底线。"
+      "founder": "大厂核心高管密集离职通常是管理动荡的信号，近期需密切关注OpenAI架构调整带来的业务波动及潜在合作变数。",
+      "developer": "随着OpenAI重组基础设施部门，其算力调度与底层架构或将面临更迭，后续可能影响API调用的稳定性和响应性能。"
     },
     "persona_labels": [
       "创业者",
-      "学生"
+      "程序员"
     ]
   },
   {
-    "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-    "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-    "source": "TechCrunch AI",
-    "summary_raw": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+    "title": "5 ways to upgrade your home decor with Google Search",
+    "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+    "source": "Google AI Blog",
+    "summary_raw": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.601206",
-    "summary_zh": "特朗普在SpaceX上市两周后以约150美元的价格买入公司股票，目前该股价已回落至135美元的发行价。这一投资动向因其特殊的政治身份及SpaceX与政府间的密切商业往来，引发了外界对于政商利益冲突的广泛关注。",
+    "fetched_at": "2026-08-26T01:25:39.452337",
+    "summary_zh": "谷歌搜索近日推出新功能，允许用户通过交互式视觉展示探索家居装饰灵感。这一更新通过将家具建模与搜索体验深度结合，进一步提升了用户在线挑选和规划室内设计的便捷性。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "需警惕政治与商业边界模糊带来的合规风险，政商深度捆绑的投资决策极易引发监管审查与舆论动荡。",
-      "creator": "这不仅仅是金融新闻，更是一个极佳的政治博弈话题，可切入“政商权力寻租”视角制作深度分析内容。"
+      "founder": "家居电商和AR工具的获客逻辑变了，搜索即体验的交互方式将成为转化用户的核心壁垒。",
+      "creator": "这一新功能是绝佳的家居类内容素材，你可以用它演示如何一键虚拟搭配，轻松吸粉。"
     },
     "persona_labels": [
       "创业者",
@@ -131,15 +152,15 @@
     "source": "Google AI Blog",
     "summary_raw": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.885898",
-    "summary_zh": "谷歌搜索推出五项新功能，通过新增“笔记本（Notebook）”记录功能及升级后的“询问谷歌（Ask Google）”交互，进一步强化了搜索的知识整合与辅助学习能力。此举标志着搜索工具正从单纯的信息检索向个性化学习助手转型，为用户提供更深度、可保存的知识探索体验。",
+    "fetched_at": "2026-08-26T01:25:39.452357",
+    "summary_zh": "谷歌近日在搜索中引入五项新功能，支持用户通过“添加至笔记本”及“向 Google 提问”等工具更高效地整理和分析学习资料。此举旨在将搜索从单纯的信息检索进化为深度学习助手，大幅优化了用户在复杂知识获取过程中的交互体验。",
     "personas": [
       "student",
       "creator"
     ],
     "takeaways": {
-      "student": "以后查资料别只搜一次就关，利用新上线的笔记本功能，可以把零散的知识点直接归档，让你整理论文或备考时更省力。",
-      "creator": "搜索正在变成你的随身研究员，你可以利用这些新工具快速梳理复杂选题的逻辑框架，提高产出深度内容的效率。"
+      "student": "你可以把搜索变成个人的随身知识库，直接在浏览器里整理笔记，省去反复跨应用复制粘贴的繁琐。",
+      "creator": "这一功能降低了长篇知识的整理门槛，你可以快速归纳复杂信息，更轻松地为你的选题制作深度科普内容。"
     },
     "persona_labels": [
       "学生",
@@ -147,41 +168,20 @@
     ]
   },
   {
-    "title": "Get closer to the game with Gemini and Pixel",
-    "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-    "source": "Google AI Blog",
-    "summary_raw": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats.",
-    "score": 0,
-    "fetched_at": "2026-08-25T01:22:17.885907",
-    "summary_zh": "Google 宣布将 Gemini AI 功能深度整合进 Pixel 系列手机，旨在通过智能技术增强用户的体育观赛与互动体验。此举展示了 AI 在提升移动设备娱乐沉浸感方面的潜力，标志着谷歌正进一步强化 Pixel 手机在运动与影像处理领域的竞争力。",
-    "personas": [
-      "founder",
-      "student"
-    ],
-    "takeaways": {
-      "founder": "谷歌正利用AI重塑手机的差异化卖点，通过垂类场景深度定制，避开单纯的硬件性能内卷，值得思考你的产品如何落地特定消费场景。",
-      "student": "这是AI从云端迈向手机硬件的典型案例，未来手机不再只是应用载体，而是能主动理解比赛现场并提供实时辅助的智能终端。"
-    },
-    "persona_labels": [
-      "创业者",
-      "学生"
-    ]
-  },
-  {
-    "title": "Measuring benchmark optimization in speech recognition",
-    "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+    "title": "Granite 4.2 LLMs: How They're Built",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:18.239539",
-    "summary_zh": "这项研究提出了一种评估语音识别模型基准测试优化的新方法，旨在量化模型在特定数据集上的提升程度。该研究的意义在于，它能够有效区分模型性能的真实进步与单纯针对测试集的“刷榜”行为，为行业选型提供更客观的参考依据。",
+    "fetched_at": "2026-08-26T01:25:39.794132",
+    "summary_zh": "IBM 正式发布 Granite 4.2 系列大语言模型，并详细披露了其从数据筛选到架构优化的完整构建过程。该系列模型在保持高效能的同时进一步提升了推理能力，为企业级应用提供了更透明、更具可解释性的开源 AI 解决方案。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别盲目迷信跑分高的数据，评估供应商时要用这套方法识别是否存在刷榜水分，从而选出真正好用的技术方案。",
-      "developer": "当你开发语音识别模型时，可以用这项指标来衡量性能提升的含金量，确保你的优化是针对真实场景而非仅针对测试集。"
+      "founder": "它提供了企业级合规方案，若你正寻找可控、透明且具备法律保障的AI底座，这是目前性价比极高的选择。",
+      "developer": "IBM公开了完整构建逻辑，你可以借此深挖数据清洗与架构优化的细节，提升构建垂直领域模型的专业深度。"
     },
     "persona_labels": [
       "创业者",
@@ -189,20 +189,20 @@
     ]
   },
   {
-    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-    "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:18.239553",
-    "summary_zh": "LFM2.5-DSpark模型推理速度提升最高达3.2倍。这一性能突破显著优化了大型语言模型的运行效率，为高吞吐、低延迟的AI应用场景提供了更具竞争力的部署方案。",
+    "fetched_at": "2026-08-26T01:25:39.794150",
+    "summary_zh": "研究人员推出了一种名为“量化感知修复（Quantization-Aware Healing）”的新技术，成功将大模型压缩至4位精度。这一突破打破了模型压缩通常会损失性能的常规，使轻量化后的模型表现甚至优于原始的全精度版本。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "模型推理速度的大幅提升将直接削减你的算力成本，这意味着你能以更低预算支撑起更大规模的并发用户访问。",
-      "developer": "这项技术优化能显著降低你部署大模型的响应延迟，让开发更丝滑、推理更高效，是实现产品性能跃升的好工具。"
+      "founder": "模型运行成本将大幅降低，你无需投入昂贵显卡即可获得比全量模型更聪明的AI服务，极大改善产品盈利空间。",
+      "developer": "这是模型部署的范式转移，通过该技术在保持高性能前提下压缩模型，能让你在低功耗硬件上直接跑起顶尖算力。"
     },
     "persona_labels": [
       "创业者",
@@ -215,15 +215,15 @@
     "source": "VentureBeat AI",
     "summary_raw": "<p>Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying, and deploying enterprise AI.</p><p>The enterprise AI stack is being rewritten in real time, and the",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:18.476263",
-    "summary_zh": "科技媒体 VentureBeat 正式任命原 theCUBE Research 常务董事 Rob Strechay 为首位首席分析师，旨在以此为起点建立全新的 VentureBeat Research 部门。此举标志着该平台正从传统新闻报道向深度企业级 AI 咨询与垂直领域分析转型，加码在 AI 商业化研究市场的布局。",
+    "fetched_at": "2026-08-26T01:25:40.096607",
+    "summary_zh": "VentureBeat 近日任命前 theCUBE Research 董事总经理 Rob Strechay 为首位首席分析师，正式启动旗下研究部门 VentureBeat Research。此举标志着该媒体在企业级 AI 领域的深度专业化转型，旨在通过更深入的市场分析拓展其在行业研究领域的影响力。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "垂直领域深度分析将成为AI风向标，你可以借此洞察大企业如何落地AI，辅助调整公司战略方向。",
-      "creator": "科技媒体正从新闻转向深度研究，你可以关注他们输出的分析报告，作为你输出AI深度解析内容的可靠数据源。"
+      "founder": "科技媒体正从单纯报道转向深度咨询，意味着企业级AI市场竞争已从概念炒作进入深度的专业评估阶段，务必关注后续的市场基准报告以制定战略。",
+      "creator": "权威媒体建立专业智库通常会输出大量硬核数据和趋势结论，这是你后续进行深度内容创作、拆解行业风口时最优质的原始素材库。"
     },
     "persona_labels": [
       "创业者",
@@ -236,22 +236,19 @@
     "source": "VentureBeat AI",
     "summary_raw": "<p>For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.</p><p>At its annual <a href=\"https://io.google/2026/\">I/O developer conference</a>, Google announced a <a href=\"https://blog.google/products-and-platforms/products/search/search-io-2026/\">sweeping redesign</a> of the search box itself — the liter",
     "score": 0,
-    "fetched_at": "2026-08-25T01:22:18.476274",
-    "summary_zh": "Google 正式宣布放弃沿用 25 年的经典搜索框界面，转而全面引入基于生成式 AI 的搜索体验。这一变革标志着搜索引擎从“关键词匹配”向“智能答案生成”模式的根本性转变，将彻底重塑用户获取信息的方式。",
+    "fetched_at": "2026-08-26T01:25:40.096627",
+    "summary_zh": "Google正式对使用了25年的经典搜索框界面进行改版，标志着搜索体验从“关键词输入+蓝链列表”模式向人工智能驱动的对话式搜索彻底转型。这一变动不仅是视觉上的更新，更预示着Google核心产品形态的重大范式转移，即搜索将深度融合生成式AI以提供更具交互性的回答。",
     "personas": [
       "founder",
-      "creator",
-      "developer"
+      "creator"
     ],
     "takeaways": {
-      "founder": "搜索入口的逻辑重构意味着流量获取方式彻底洗牌，你需要重新评估SEO及投放策略以应对AI生成的直接回答。",
-      "creator": "搜索不再仅仅展示链接而是直接给答案，这意味着你的内容必须更具观点和深度，才不会在AI检索中被完全过滤。",
-      "developer": "搜索算法的底座已由关键词匹配转为生成式模型，你的技术栈需向RAG和AI Agent领域倾斜，以适配新的交互逻辑。"
+      "founder": "搜索逻辑重构意味着SEO流量红利终结，你需尽早布局AI原生应用的流量分发策略。",
+      "creator": "搜索结果将从链接变成AI总结，你需要调整内容创作方向以适应被AI引用的新规则。"
     },
     "persona_labels": [
       "创业者",
-      "内容创作者",
-      "程序员"
+      "内容创作者"
     ]
   }
 ]
