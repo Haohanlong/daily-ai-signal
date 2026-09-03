@@ -1,44 +1,65 @@
 [
   {
-    "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+    "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+    "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 435,
-    "fetched_at": "2026-09-02T03:32:17.759984",
-    "summary_zh": "Z.ai 确认“Ox Alpha”为其 GLM 系列的新一代模型，并承诺将向公众开源模型权重。此举意味着 GLM 模型家族迎来扩容，开放权重将显著降低开发者和研究人员的使用门槛，进一步加速大模型技术的迭代与应用落地。",
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "这是获取高性能免费基座模型的好机会，你可以直接下载权重在本地部署应用，避开调用闭源API的高昂成本。",
-      "founder": "国产模型阵营又多了一个开源选项，你可以评估其性价比，利用该开源模型低成本构建垂直领域的差异化业务。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
-    ]
-  },
-  {
-    "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-    "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 183,
-    "fetched_at": "2026-09-02T03:32:17.299937",
-    "summary_zh": "苹果在针对前员工的诉讼中提交了证据，指控其在离职前窃取了公司内部机密。此案揭示了苹果对AI技术开发及其知识产权的高度敏感，展现了科技巨头在防范商业秘密外泄及应对人才流失方面的严厉态度。",
+    "score": 158,
+    "fetched_at": "2026-09-03T03:32:44.332842",
+    "summary_zh": "知名网络数据传输工具 cURL 官方近日披露了 6 个新的安全漏洞，在此之前，OpenAI 和 Anthropic 刚刚通过审计确认其系统中不存在相关风险。这一消息受到行业高度关注，因为 cURL 作为全球互联网基础设施的核心组件，其安全性直接关系到绝大多数在线服务的稳定运行。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "大厂对核心技术的内控已近苛刻，你在处理离职人才管理和商业秘密保护时必须建立起更严密的合规审计机制。",
-      "developer": "在科技巨头进行AI研发时，离职带走代码的行为会被作为核心证据起诉，即便只是个人习惯也需避开大厂的数据合规红线。"
+      "founder": "检查你的后台服务是否直接调用了cURL，尽快推动团队完成补丁升级，以防核心业务因基础设施漏洞被黑客攻击。",
+      "developer": "这是全球最底层的传输工具，请立即核查生产环境版本，避免项目中存在潜在安全后门影响系统的整体稳定性。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
+    ]
+  },
+  {
+    "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
+    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 96,
+    "fetched_at": "2026-09-03T03:32:44.056061",
+    "summary_zh": "OpenAI和Hugging Face近期遭到针对性黑客攻击，导致模型权重及相关训练数据面临潜在泄露风险。此次事件暴露出前沿AI开发平台在模型安全性与资产保护方面存在的关键漏洞，对行业防范恶意渗透敲响了警钟。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "行业正面临模型被窃取的新风险，公司需重新评估核心资产的云端安全性与内部权限管控策略。",
+      "developer": "大模型架构并非无懈可击，需警惕供应链安全漏洞，在部署和维护AI系统时必须加固底层防御。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "url": "https://openai.com/index/atv-big-air-tour",
+    "source": "OpenAI Blog",
+    "summary_raw": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+    "score": 0,
+    "fetched_at": "2026-09-03T03:32:45.232298",
+    "summary_zh": "ATV Big Air Tour 利用 ChatGPT Work 优化营销与周边开发流程，将原本需 3 天完成的任务缩短至 3 小时，甚至仅用 15 分钟就将产品图片转化为电商库存页面。该案例展示了 AI 工具在提升企业运营效率与数字化转型方面的实际潜力。",
+    "personas": [
+      "founder",
+      "creator"
+    ],
+    "takeaways": {
+      "founder": "别再让文案和排版拖慢进度，把重复运营流程交给AI，能帮你节省大量人力成本并缩短业务迭代周期。",
+      "creator": "通过AI将素材快速转为变现页面，这套工作流能让你的商业化运营效率翻倍，把更多精力留给内容创作。"
+    },
+    "persona_labels": [
+      "创业者",
+      "内容创作者"
     ]
   },
   {
@@ -47,17 +68,17 @@
     "source": "OpenAI Blog",
     "summary_raw": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.348628",
-    "summary_zh": "Basis、Clay 和 Exa Labs 等 AI 原生企业正通过 AI Agent 重塑业务流程，将原本琐碎的工作流转化为企业的核心运营能力。这一趋势表明，AI 不再仅仅是辅助工具，企业通过将 AI 深度嵌入入职培训、账户管理及开发集成，正建立起更具竞争力的自动化运行范式。",
+    "fetched_at": "2026-09-03T03:32:45.232316",
+    "summary_zh": "Basis、Clay 和 Exa Labs 等 AI 原生企业正通过 AI Agent 重构入职流程、账户管理及开发者集成等核心业务环节。这一实践证明 AI 已从单纯的辅助工具演变为企业的底层运营能力，为大型企业如何系统性提升效率提供了可借鉴的转型范式。",
     "personas": [
       "founder",
       "developer",
       "creator"
     ],
     "takeaways": {
-      "founder": "别只把AI当聊天机器人用，你应该思考如何用AI Agent把内部繁琐业务变成可自动化的核心竞争力。",
-      "developer": "关注AI Agent工作流集成，未来开发重点在于如何将API和工具链深度嵌入业务逻辑实现自动化运行。",
-      "creator": "这套AI重塑工作流的案例非常有传播价值，适合深挖这类效率革命，向用户展示AI如何改变商业运作模式。"
+      "founder": "别再只把AI当聊天工具了，你需要思考如何用Agent重构公司内部流程，将其转化为别人无法复制的核心竞争力。",
+      "developer": "关注这些AI原生企业的技术栈演进，未来开发工作将不再是写代码，而是构建连接业务逻辑的Agent自动化链路。",
+      "creator": "这套案例提供了关于AI如何重塑职场的具体范本，非常适合制作成‘AI正在取代传统办公’类的深度行业分析内容。"
     },
     "persona_labels": [
       "创业者",
@@ -66,41 +87,20 @@
     ]
   },
   {
-    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-    "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-    "source": "OpenAI Blog",
-    "summary_raw": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-    "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.348668",
-    "summary_zh": "医疗机构现已能够将电子健康记录（EHR）及其他行业数据与ChatGPT集成。此举通过让大模型安全接入患者病历和前沿医学研究，显著提升了医生获取临床辅助决策的效率与精准度。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "医疗AI赛道出现合规集成范本，相关机构可利用此架构切入智慧医疗诊疗辅助市场。",
-      "developer": "这意味着医疗行业数据孤岛开始松动，开发者可重点研究如何处理敏感医疗数据与大模型的合规连接技术。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
-    "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+    "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
     "source": "TechCrunch AI",
-    "summary_raw": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+    "summary_raw": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.650309",
-    "summary_zh": "AI模型训练初创公司AfterQuery近日完成新一轮融资，估值达到32亿美元。该公司仅用时五个月便从3亿美元估值飙升至独角兽阵营，创下Y Combinator孵化项目中最快跻身独角兽的纪录，展现了AI基础设施领域极高的资本热度。",
+    "fetched_at": "2026-09-03T03:32:45.580264",
+    "summary_zh": "TechCrunch Disrupt 2026 将再度设立“创业者舞台”（The Builders Stage），汇聚创始人、运营专家及投资人共同探讨企业规模化扩张的实战策略。这一环节通过聚焦一线实操经验，为处于成长期的初创公司提供极具参考价值的增长路径与行业洞察。",
     "personas": [
       "founder",
       "student"
     ],
     "takeaways": {
-      "founder": "AI基础设施的资本风口已极度激进，你需要评估是否要押注底层工具或数据处理赛道以获取高溢价融资。",
-      "student": "AI行业造富速度快得惊人，作为未来的入局者，应密切关注训练数据与基础设施领域的技术演进路径。"
+      "founder": "别光盯着融资，这场活动提供的增长实战经验能帮你避开从0到1后的管理坑。",
+      "student": "通过关注这些一线创业实操经验，你能跳出书本理论，建立对商业扩张的真实认知。"
     },
     "persona_labels": [
       "创业者",
@@ -108,20 +108,41 @@
     ]
   },
   {
-    "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-    "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+    "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+    "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
     "source": "TechCrunch AI",
-    "summary_raw": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+    "summary_raw": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.650319",
-    "summary_zh": "OpenAI近期预览了其最新多模态模型Astra的安全防御措施，该模型展示出强大的网络系统渗透与攻击能力。鉴于其在网络安全领域的破坏性潜力，OpenAI在发布前采取的预防性审查机制受到业界高度关注。",
+    "fetched_at": "2026-09-03T03:32:45.580274",
+    "summary_zh": "Palo Alto Networks近日斥资5亿美元收购了由Thrive Capital支持的初创公司Console。此次收购标志着AI IT服务自动化领域的竞争格局重构，促使Sequoia支持的Serval跃升为该赛道的领跑者。",
+    "personas": [
+      "founder",
+      "student"
+    ],
+    "takeaways": {
+      "founder": "赛道整合加剧，建议尽早梳理自身业务护城河，关注巨头通过并购补全AI基础设施的战略动向。",
+      "student": "关注AI IT运维自动化趋势，这预示着企业未来管理大规模算力和系统的方式将迎来智能化变革。"
+    },
+    "persona_labels": [
+      "创业者",
+      "学生"
+    ]
+  },
+  {
+    "title": "Proactive cyber defense for governments and enterprises",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "source": "Google AI Blog",
+    "summary_raw": "Introducing Fairwind Program",
+    "score": 0,
+    "fetched_at": "2026-09-03T03:32:45.873066",
+    "summary_zh": "Fairwind项目正式发布，旨在为政府及企业构建主动式网络防御体系。该项目通过前瞻性的安全策略，填补了传统被动防御的空白，对提升关键基础设施的安全韧性具有重要意义。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "网络安全威胁将迎来AI级进化，需重新评估企业数据护城河，并考虑提前引入AI安全审计工具。",
-      "developer": "AI模型自主渗透能力大幅提升，防御逻辑需从规则匹配转向实时行为分析，未来代码安全审查将全面自动化。"
+      "founder": "未来企业合规要求将转向主动防御，你需要尽早评估这类安全架构，以避免未来在关键基础设施项目中被淘汰。",
+      "developer": "该项目预示着安全防御从被动修补转向主动预测，掌握这套框架的逻辑将成为你构建高安全等级应用的核心竞争力。"
     },
     "persona_labels": [
       "创业者",
@@ -134,15 +155,15 @@
     "source": "Google AI Blog",
     "summary_raw": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\"",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.842153",
-    "summary_zh": "谷歌正式发布新一代模型 Gemini 3.7 Flash，并同步针对学生用户推出为期一年的免费会员计划。此次更新不仅提升了模型性能，还通过针对性的优惠政策进一步强化了在教育市场的竞争力。",
+    "fetched_at": "2026-09-03T03:32:45.873077",
+    "summary_zh": "Google正式发布了性能更强的Gemini 3.7 Flash模型，并同步推出了面向Pixel设备的新体验。此外，Google针对学生群体开启了为期一年的免费订阅福利，进一步降低了AI工具的使用门槛。",
     "personas": [
       "student",
       "founder"
     ],
     "takeaways": {
-      "student": "你可以零成本使用最强的AI辅助学习，不仅能处理更复杂的作业，还能借此建立起AI时代的科研与学习优势。",
-      "founder": "谷歌正通过免费策略抢占教育流量入口，未来针对学生群体的AI垂直类应用，将面临极其严峻的获客和竞争压力。"
+      "student": "通过免费申领Gemini一年期权益，你可以零成本体验顶尖AI辅助学习，无论是写论文还是润色文档都能省下不少会员费。",
+      "founder": "谷歌在移动端和基础模型上的双重压注，意味着端侧AI商业化的竞争会加剧，未来开发应用时需更关注如何利用模型性能去构建差异化体验。"
     },
     "persona_labels": [
       "学生",
@@ -150,24 +171,24 @@
     ]
   },
   {
-    "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-    "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-    "source": "Google AI Blog",
-    "summary_raw": "Collage of images created by Google Pics, with the text \"Say hello to Google Pics\" on top",
+    "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+    "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:18.842162",
-    "summary_zh": "谷歌在 Workspace 中推出了名为“Google Pics”的新功能，旨在简化图像的创建与编辑流程。这一集成化工具降低了办公场景下的图片处理门槛，让用户能够直接在文档和协作环境中快速生成及美化视觉内容。",
+    "fetched_at": "2026-09-03T03:32:46.216043",
+    "summary_zh": "IBM与数据流平台Confluent达成合作，将IBM的时间序列模型集成至Confluent平台中，实现对流数据的实时智能分析。此次整合通过实时处理海量业务数据，大幅提升了企业在预测性维护、异常检测等场景下的决策效率。",
     "personas": [
       "founder",
-      "creator"
+      "developer"
     ],
     "takeaways": {
-      "founder": "办公流中内置AI制图能显著提升团队协作效率，未来企业协作工具将进一步压缩专业设计软件在基础办公场景的份额。",
-      "creator": "这标志着AI作图正成为日常办公标配，后续在文档内快速生成配图将成为自媒体人创作素材、提升内容视觉质感的利器。"
+      "founder": "这是降本增效的新手段，利用现成的实时预测模型，能让你的企业在设备维护或业务异常上实现更及时的决策。",
+      "developer": "无需自建复杂系统，直接在数据流管道中调用IBM模型，能更高效地完成流数据的实时分析与异常检测任务。"
     },
     "persona_labels": [
       "创业者",
-      "内容创作者"
+      "程序员"
     ]
   },
   {
@@ -176,40 +197,19 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:19.147471",
-    "summary_zh": "BenchMIRT研究揭示了主流大语言模型评测集在评估能力时的局限性，指出许多基准测试往往无法反映模型的真实推理水平。这一发现对人工智能领域具有重要意义，提醒开发者和研究者需审慎看待现有评分，并推动评测标准的进一步迭代与优化。",
+    "fetched_at": "2026-09-03T03:32:46.216059",
+    "summary_zh": "研究人员推出了BenchMIRT基准测试框架，旨在深入剖析大模型评测集背后的评估逻辑与潜在缺陷。该研究揭示了现有基准测试在衡量模型真实能力方面的局限性，对提升AI模型评估的科学性与透明度具有重要意义。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别盲目迷信模型榜单分数，决策时应更看重实际业务场景下的跑分测试，而非公共评测集的虚高数字。",
-      "developer": "现有基准测试存在严重水分，评估模型能力时建议加入更多定制化测试用例，避免被单一维度的评分指标误导。"
+      "founder": "别再被虚高的跑分数据忽悠了，这套工具能帮你识破评测陷阱，更理性地评估模型性能与落地潜力。",
+      "developer": "现有基准测试常有水分，利用此框架你能更精准地排查模型在实际业务逻辑中的真实短板，优化开发策略。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
-    ]
-  },
-  {
-    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-    "url": "https://huggingface.co/blog/webgpu-kernels",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-09-02T03:32:19.147484",
-    "summary_zh": "Hugging Face 发布了 @huggingface/kernels 库，为 WebGPU 提供了超过 200 个算子支持。这一举措极大提升了浏览器端运行 AI 模型的能力，使得在不依赖服务器的情况下，直接在网页实现高性能本地化 AI 计算成为可能。",
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "无需配置复杂环境，现在你可以直接在网页端调用高性能算子，把AI模型无缝嵌入浏览器应用中。",
-      "founder": "这能大幅降低AI应用部署的云端服务器成本，通过利用用户的本地算力，让你的产品具备极高的隐私安全与响应速度。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
     ]
   },
   {
@@ -218,15 +218,15 @@
     "source": "VentureBeat AI",
     "summary_raw": "<p><i>Presented by Gravitee </i></p><hr /><p>Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it.</p><p>That’s because enterprises don&#x27;t deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications that were never built with a machine decision-maker in mind. That&#x27;s the failure mode that should keep you up at night: a windy, complicated system nobody can see cl",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:19.382431",
-    "summary_zh": "企业目前面临的真正风险并非人工智能代理本身，而是由多个代理、API及复杂交互交织而成的系统性失控。随着企业部署的代理规模激增，这种日益复杂的集成网络已成为难以察觉的隐形威胁，亟需管理层重视其潜在的治理风险。",
+    "fetched_at": "2026-09-03T03:32:46.454532",
+    "summary_zh": "企业部署人工智能的风险并非源于单一智能体的自主性，而是来自多个智能体相互调用及API集成所引发的系统级复杂性。这种隐蔽的复杂性正成为企业技术架构的“阴影”，如何有效管理和协调庞大的智能体集群，已成为企业AI落地过程中的关键挑战。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别光盯着AI代理的功能，要开始布局治理架构，防范系统因代理间交互过于复杂而失控。",
-      "developer": "未来开发重点将从单一模型调优，转向多代理系统下的链路监控与复杂交互逻辑的稳健性设计。"
+      "founder": "别光盯着AI本身，管理智能体之间的协作架构才是企业降本增效、避免技术债务崩盘的核心决策重点。",
+      "developer": "多智能体系统的架构复杂度极高，未来调试和运维跨系统API协作将成为开发者的核心竞争力。"
     },
     "persona_labels": [
       "创业者",
@@ -239,15 +239,15 @@
     "source": "VentureBeat AI",
     "summary_raw": "<p><i>Presented by EDB </i></p><hr /><p>As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: When an agent tries to complete an action that it was never authorized to do, what actually stops it?</p><p>These are your agents, running on your models, touching your data in your infrastructure — and the responsibility for what they do sits with you. That",
     "score": 0,
-    "fetched_at": "2026-09-02T03:32:19.382445",
-    "summary_zh": "随着企业赋予AI智能体在多系统间自主规划与决策的权限，如何确保其操作符合安全与治理规范已成为架构设计的核心挑战。这一趋势表明，传统的治理手段正逐渐失效，迫使企业必须将安全防线直接构建在底层数据架构中，以实现对智能体行为的实时监管。",
+    "fetched_at": "2026-09-03T03:32:46.454546",
+    "summary_zh": "随着企业赋予AI智能体在多系统间自主规划与行动的权限，如何确保其决策符合合规性已成为架构设计的核心挑战。这一趋势意味着传统的治理模式正转向“数据层治理”，即必须从数据交互的最底层实时管控智能体的行为，以防范自动化决策带来的潜在风险。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "未来企业合规的核心不再是靠制度管人，而是要重构底层数据架构，把安全规则直接植入数据存储层以防范智能体违规。",
-      "developer": "传统的应用层权限管理已无法限制自主AI，开发时需考虑数据原生的访问控制，确保智能体读取任何数据时都受底层策略约束。"
+      "founder": "别再指望靠事后审计防风险，要把合规规则直接写进数据接口，这决定了你未来AI业务能否安全落地。",
+      "developer": "未来的安全不是外挂补丁，而是在数据流中嵌入鉴权机制，你需要重新思考如何构建更可靠的AI自治架构。"
     },
     "persona_labels": [
       "创业者",
