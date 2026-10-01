@@ -1,40 +1,19 @@
 [
   {
-    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-    "url": "https://github.com/ninjahawk/livenerf",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 368,
-    "fetched_at": "2026-09-30T04:38:20.523601",
-    "summary_zh": "Opus 1.5版本在编码效率和音质表现上取得了显著提升，社区目前正通过“Livenerf”项目密切关注其后续版本是否会在性能上出现退步。这一讨论反映了开发者对音频编解码器在更新迭代中如何平衡压缩率与音质稳定性的高度重视。",
-    "personas": [
-      "developer",
-      "creator"
-    ],
-    "takeaways": {
-      "developer": "在追求高效率编码的同时，需通过Livenerf这类基准测试工具，严防版本更新引入的音质倒退隐患。",
-      "creator": "关注音频编码的技术更迭，能帮你判断何时该升级软件，以确保在压缩文件体积时能保留最佳听感。"
-    },
-    "persona_labels": [
-      "程序员",
-      "内容创作者"
-    ]
-  },
-  {
     "title": "DeepSeek Elastic Compute (DSec)",
     "url": "https://arxiv.org/abs/2609.22978",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 322,
-    "fetched_at": "2026-09-30T04:38:21.721846",
-    "summary_zh": "DeepSeek 推出了弹性计算平台 DSec，旨在通过高效的算力调度与分布式技术，降低大模型训练与推理的计算成本。该平台通过优化资源利用率，进一步提升了高性能人工智能算力的可及性，是 DeepSeek 推动大模型技术普惠化的重要一步。",
+    "score": 323,
+    "fetched_at": "2026-10-01T04:49:50.859817",
+    "summary_zh": "DeepSeek 近期推出了弹性计算平台 DSec，旨在通过更灵活的资源调度提升计算效率。这一动态值得关注，因为它展示了 DeepSeek 在优化大模型训练与推理成本方面的最新技术实践，有望进一步降低高性能计算的门槛。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "你将能以更低的预算部署大模型，大幅压缩AI项目的基建支出，在激烈的价格竞争中获得显著的成本优势。",
-      "developer": "DeepSeek的调度技术降低了分布式计算门槛，你可以直接利用这套工具优化自家大模型的部署效率，减少算力浪费。"
+      "founder": "大模型推理成本将大幅下降，你可以利用这套低门槛的弹性调度方案，以更少预算快速验证并落地AI应用。",
+      "developer": "DeepSeek公开了这套高效资源调度工具，能帮你解决大模型算力资源利用率不足的问题，优化项目运行成本。"
     },
     "persona_labels": [
       "创业者",
@@ -42,24 +21,87 @@
     ]
   },
   {
-    "title": "Show HN: HN.watch – Videos of all Hacker News posts",
-    "url": "https://hn.watch/",
+    "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+    "url": "https://artificialanalysis.ai/models/gemini-4-argon",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 208,
-    "fetched_at": "2026-09-30T04:38:21.045752",
-    "summary_zh": "开发者近日推出了 HN.watch，这是一个旨在将 Hacker News 上的热门讨论内容转化为视频呈现的平台。该项目通过自动化的形式为社区讨论提供视觉化展示，为用户获取科技资讯提供了全新的浏览维度。",
+    "score": 96,
+    "fetched_at": "2026-10-01T04:49:50.198090",
+    "summary_zh": "谷歌发布了全新一代大模型Gemini 4 Argon (High)，在显著提升推理智能与性能的同时，采用了更具竞争力的定价策略。这一更新标志着谷歌在高端模型市场进一步优化性价比，对企业级AI应用落地具有重要意义。",
     "personas": [
-      "creator",
+      "founder",
       "developer"
     ],
     "takeaways": {
-      "creator": "这是一个极佳的选题灵感库，你可以利用它快速产出高质量的科技热点解读视频，抢占流量先机。",
-      "developer": "该项目展示了AI自动化处理长文本生成视频的工作流，你可以参考其技术实现，为自己的内容产品搭建自动化生产线。"
+      "founder": "谷歌大幅拉低了高端AI的调用成本，现在是升级企业业务逻辑、降低AI算力支出并重构产品护城河的最佳窗口期。",
+      "developer": "这款模型在高性能的同时优化了定价，开发者可以更低成本地接入高质量推理能力，构建响应更快、逻辑更强的应用。"
     },
     "persona_labels": [
-      "内容创作者",
+      "创业者",
       "程序员"
+    ]
+  },
+  {
+    "title": "Claude Says",
+    "url": "https://ohhfishal.net/Posts/claude",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 67,
+    "fetched_at": "2026-10-01T04:49:49.992227",
+    "summary_zh": "Anthropic 近日发布了名为“Claude Says”的全新功能，用户现在可以直接在 Claude 网页端进行语音对话。此举标志着 Claude 正式加入 AI 语音交互赛道，进一步强化了其在自然语言处理与多模态交互领域的竞争实力。",
+    "personas": [
+      "founder",
+      "creator"
+    ],
+    "takeaways": {
+      "founder": "AI语音交互成为标配，意味着你需要重新审视产品交互逻辑，考虑如何将语音操作整合进你的业务流中。",
+      "creator": "AI对话工具变得更像真人，你可以利用Claude的语音功能制作更有互动感的播客、访谈或趣味短视频内容。"
+    },
+    "persona_labels": [
+      "创业者",
+      "内容创作者"
+    ]
+  },
+  {
+    "title": "Disrupting a coordinated model-distillation campaign",
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "source": "OpenAI Blog",
+    "summary_raw": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    "score": 0,
+    "fetched_at": "2026-10-01T04:49:51.493238",
+    "summary_zh": "OpenAI近日成功阻止了一场针对其人工智能模型的协同蒸馏攻击，该行动旨在窃取受保护的模型推理能力。此举标志着大模型厂商在应对新型对抗性威胁、保障核心技术安全性方面迈出了关键一步。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "模型权重保护已成核心护城河，后续融资需证明你具备防御对手通过逆向工程窃取商业机密的能力。",
+      "developer": "大模型防御攻防战已打响，未来在部署API时必须增加对异常调用模式的监测，防止被对手低成本薅羊毛。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Helping small businesses put AI to work",
+    "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "source": "OpenAI Blog",
+    "summary_raw": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+    "score": 0,
+    "fetched_at": "2026-10-01T04:49:51.493250",
+    "summary_zh": "OpenAI宣布与美国小企业发展中心（SBDC）建立合作伙伴关系，通过提供实操培训和本地化支持，帮助小型企业应用人工智能技术。此举旨在缩小技术鸿沟，为资源有限的小型团队提供利用AI提升生产力和竞争力的实用路径。",
+    "personas": [
+      "founder",
+      "creator"
+    ],
+    "takeaways": {
+      "founder": "别觉得AI只属于大厂，通过利用OpenAI的普惠培训，你可以低成本优化获客或客服，抢占小团队的效率高地。",
+      "creator": "这标志着AI正全面下沉到街头巷尾，你可以以此为切入点，制作如何通过AI解决现实商业问题的实用教程。"
+    },
+    "persona_labels": [
+      "创业者",
+      "内容创作者"
     ]
   },
   {
@@ -68,15 +110,15 @@
     "source": "OpenAI Blog",
     "summary_raw": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
     "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.357576",
-    "summary_zh": "OpenAI发布了GPT-6.1 Sol模型，该模型在编程、计算机操作及专业任务方面具备接近Astra等级的智能水平。其核心优势在于成本大幅降低，API输入输出价格仅为Astra标准版的五分之一，进一步提升了高性能AI的经济效益。",
+    "fetched_at": "2026-10-01T04:49:51.493254",
+    "summary_zh": "OpenAI发布了全新模型GPT-6.1 Sol，该模型在编码、计算机操作及专业办公领域具备接近Astra的智能化水平。值得关注的是，其API输入输出成本仅为Astra标准版价格的五分之一，大幅降低了高性能AI的应用门槛。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "模型成本暴降至五分之一，意味着你可以用更低的运营支出，在产品中接入比肩顶尖水准的智能服务。",
-      "developer": "该模型不仅编程更强且运行更省钱，你可以考虑将高频交互场景迁移至此，大幅降低调用API的账单开销。"
+      "founder": "算力成本骤降至五分之一，这意味着你的产品能以更低成本集成高性能AI，大幅提升毛利空间。",
+      "developer": "这个高性价比模型将成为你开发复杂办公及自动化工具的首选，能有效规避高昂的API调用成本。"
     },
     "persona_labels": [
       "创业者",
@@ -84,113 +126,62 @@
     ]
   },
   {
-    "title": "DevDay 2026 Recap",
-    "url": "https://openai.com/index/devday-2026-recap",
-    "source": "OpenAI Blog",
-    "summary_raw": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.357589",
-    "summary_zh": "OpenAI 在 2026 年度开发者大会（DevDay）上发布了包括 GPT-6 Astra、全新 ChatGPT 体验及 Codex 在内的 20 多项产品更新。此次发布全面升级了 AI 模型能力、开发工具及安全架构，标志着 OpenAI 在多模态交互与开发者生态建设上迈入新阶段。",
-    "personas": [
-      "founder",
-      "developer",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "AI能力迎来新一轮爆发，你需要重新评估业务中AI嵌入的深度与成本，避免被旧技术路线淘汰。",
-      "developer": "全新工具链和模型接口已上线，建议优先调研Codex的新特性，它将大幅提升你的编码效率与开发工作流。",
-      "creator": "GPT-6等重磅更新自带极高流量，围绕这些新功能制作体验评测或实操教程，是近期涨粉的最佳切入点。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "Introducing dots",
-    "url": "https://openai.com/index/introducing-dots",
-    "source": "OpenAI Blog",
-    "summary_raw": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.357594",
-    "summary_zh": "OpenAI 推出了名为“Dots”的全新智能助理，旨在跨越复杂项目与日常任务，为用户提供主动式的全流程协助。这一产品标志着AI从被动响应转向主动执行，能够更深层次地融入并推动用户的实际工作进度。",
-    "personas": [
-      "founder",
-      "developer",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "AI正从聊天工具进化为执行者，这意味着你需要重新评估业务流程中哪些环节可由AI自动闭环，以大幅降低人力运营成本。",
-      "developer": "OpenAI的产品范式正向主动任务调度倾斜，开发产品时应重点关注Agent架构及如何实现跨应用的数据协同与自动化调用。",
-      "creator": "AI的主动执行能力是极佳的内容选题，你可以测试它在复杂工作流中的表现，制作成测评视频向观众演示未来工作方式的变革。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-    "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+    "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+    "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
     "source": "TechCrunch AI",
-    "summary_raw": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+    "summary_raw": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
     "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.521119",
-    "summary_zh": "美国官方网站（America.gov）在回答关于《我的世界》的提问时会输出古怪内容，但这并非系统故障，而是出于国家安全考量的特定防护策略。此举表明AI在关键领域正通过人为限制来避免产生过度发散或不可控的生成式内容。",
-    "personas": [
-      "founder",
-      "developer",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "AI在关键领域正从“追求智能”转向“安全可控”，需预判合规门槛对业务落地的限制。",
-      "developer": "AI的异常回答可能是为了屏蔽敏感信息，开发时需理解这是防御性Prompt工程而非模型故障。",
-      "creator": "官方AI刻意“装傻”的现象极具话题性，适合制作测评视频剖析技术背后的安全红线与逻辑。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-    "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-    "source": "TechCrunch AI",
-    "summary_raw": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.521127",
-    "summary_zh": "在OpenAI发布新AI智能体“Dots”前夕，马斯克的xAI抢先购得了“dot.com”域名，并将该网址重定向至Grok聊天机器人的下载页面。这一举动被外界普遍解读为对OpenAI的精准“狙击”与挑衅，进一步加剧了这两家AI巨头之间的竞争火药味。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "行业巨头间的竞争已从产品延伸至品牌资产的争夺，提醒你在命名产品前必须同步完成核心域名的防御性注册。",
-      "creator": "大厂间的互怼是极佳的传播素材，你可以复盘此类商业博弈背后的心理战，通过拆解火药味十足的公关手段吸引关注。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "OpenAI’s latest features take direct aim at the app store model",
-    "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-    "source": "TechCrunch AI",
-    "summary_raw": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.521130",
-    "summary_zh": "OpenAI 正通过其平台功能的持续更新，构建一套独立于传统应用商店的软件分发模式。这一举措旨在将 ChatGPT 转型为用户和 AI 智能体发现并直接调用软件服务的核心入口，挑战现有的移动应用生态格局。",
+    "fetched_at": "2026-10-01T04:49:51.644233",
+    "summary_zh": "Google正式发布了最强大的模型Gemini 4 Argon，该模型专为编码和网络安全领域进行了深度优化。作为其当前性能最顶尖的产品，这一动作标志着Google正通过提升垂直领域的专业处理能力，进一步强化其在高端AI生产力市场的竞争力。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别再只盯着APP开发了，未来流量入口可能变成AI智能体，需提前布局ChatGPT生态以获取新渠道客源。",
-      "developer": "应用分发逻辑变了，以后不用苦苦挤苹果应用商店，学会构建调用插件和智能体才是获取用户的新出路。"
+      "founder": "这意味着巨头开始通过深耕编程与安全领域建立护城河，你的AI产品需尽快寻找差异化切入点，避开硬碰硬的通用模型竞争。",
+      "developer": "该模型在代码与安全分析上表现极强，建议你将其接入工作流，能显著提升复杂项目查错与防御代码生成的效率。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+    "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+    "score": 0,
+    "fetched_at": "2026-10-01T04:49:51.644240",
+    "summary_zh": "AI 硬件设计初创公司 Flow Engineering 完成融资，估值达到 7.5 亿美元，投资方包括 Valor、Atreides 和红杉资本。红杉资本的 Roelof Botha 不仅参与投资，还将加入该公司董事会，这标志着 AI Agent 技术在复杂硬件开发领域的落地受到资本市场的强力关注。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "资本正从单纯的大模型转向AI深度赋能垂直行业，硬件工程领域将成为工业软件的新掘金点。",
+      "developer": "AI Agent不再局限于写代码，开始向芯片与复杂硬件设计领域渗透，需关注AI辅助工程设计的工具链演进。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+    "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+    "source": "TechCrunch AI",
+    "summary_raw": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+    "score": 0,
+    "fetched_at": "2026-10-01T04:49:51.644243",
+    "summary_zh": "OpenAI 近期推出的“Decisions API”被视作对 AI 智能体 Jev 的复刻，旨在提升大模型在复杂任务中的决策效率。这一工具通过提供低成本、高响应的智能化支持，有望解决当前 AI 智能体协作过程中的响应滞后与资源损耗问题，是推动 AI 从对话转向自主操作的关键一步。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "大模型正从对话转向自动办公，你的业务流程未来可交由AI自主决策，这会大幅降低人工成本并提升协同效率。",
+      "developer": "OpenAI推出的新API能解决智能体响应慢的问题，赶快尝试接入以优化你开发的自动化任务链，提升运行性能。"
     },
     "persona_labels": [
       "创业者",
@@ -203,15 +194,15 @@
     "source": "Google AI Blog",
     "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\" />Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
     "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.666990",
-    "summary_zh": "《The Gifted》摘得“未来愿景XPRIZE”（Future Vision XPRIZE）竞赛桂冠，成为最佳预告片作品。这一赛事旨在通过影像激发公众对前沿科技与人类未来的想象，展现了创意叙事与科技趋势融合的独特价值。",
+    "fetched_at": "2026-10-01T04:49:51.813987",
+    "summary_zh": "Future Vision XPRIZE 竞赛评选出了获奖预告片《The Gifted》。该作品通过极具前瞻性的叙事探讨了未来科技对人类生活的影响，展现了科技与创意融合的视觉想象力。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "通过影视叙事向公众兜售技术愿景，是初创企业在融资和市场推广中构建品牌影响力、引发用户情感共鸣的重要手段。",
-      "creator": "这部获奖短片展示了高质量科技叙事的范式，你可以借鉴其将抽象的技术概念视觉化、情绪化的手法，打造更具传播力的爆款视频。"
+      "founder": "通过这类前沿叙事观察大众对未来科技的审美与预期，能帮你在制定产品愿景时更好地击中用户痛点。",
+      "creator": "这部作品是创意与技术结合的行业标杆，拆解其叙事逻辑能为你提供极佳的短视频内容创作灵感与素材。"
     },
     "persona_labels": [
       "创业者",
@@ -224,15 +215,15 @@
     "source": "Google AI Blog",
     "summary_raw": "Google Beam promotional animation",
     "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.666999",
-    "summary_zh": "Google Beam 近期宣布扩展服务区域，并引入了更多合作伙伴及企业客户。此次扩张不仅增强了其在全球市场的覆盖能力，也标志着 Google 正在进一步加速布局企业级应用生态。",
+    "fetched_at": "2026-10-01T04:49:51.813994",
+    "summary_zh": "Google Beam 近期新增了多个服务区域，并扩大了合作伙伴与客户规模，进一步拓展其在行业内的应用范围。这一进展显示出 Google 正加速推动该技术在基础设施与商业场景中的落地，标志着其在该领域的布局进入了新阶段。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "谷歌正加速布局企业级云生态，你需要评估业务是否能利用其新区域的服务来优化成本或提升全球化部署能力。",
-      "developer": "谷歌云服务的覆盖面在扩大，开发者可关注新区域的API可用性，这可能是降低延迟、提升应用响应速度的新机会。"
+      "founder": "Google正加速完善边缘计算生态，这预示着云基础设施成本将进一步降低，相关行业的商业化落地门槛正在快速下降。",
+      "developer": "随着Beam覆盖区域扩大和生态成熟，你可以开始考虑将低延迟的分布式应用部署其上，享受更广泛的地理分发能力。"
     },
     "persona_labels": [
       "创业者",
@@ -245,82 +236,19 @@
     "source": "Google AI Blog",
     "summary_raw": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
     "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.667002",
-    "summary_zh": "谷歌近日为其“AI与经济研究计划”（AI & Economy Research Program）引入了一批新专家。此举旨在深化对人工智能如何重塑全球经济与劳动力市场的分析，标志着谷歌正加大力度研究AI技术带来的深层社会与经济影响。",
+    "fetched_at": "2026-10-01T04:49:51.813997",
+    "summary_zh": "谷歌AI与经济研究项目（AI & Economy Research Program）近期迎来多位新成员加入。这一动作标志着谷歌正进一步强化对人工智能在经济领域影响力的深度研究，旨在从学理与实操层面探索AI驱动的经济变革潜力。",
     "personas": [
       "founder",
       "student"
     ],
     "takeaways": {
-      "founder": "谷歌正通过顶级智库研判AI带来的经济范式转移，你需要借此洞察未来AI商业化过程中的政策红利与宏观市场风向。",
-      "student": "AI对就业和经济的冲击已成顶层研究重点，了解这些专家关注的问题，能帮你精准避开被AI淘汰的赛道并找准职业方向。"
+      "founder": "谷歌正在输出AI宏观经济影响的官方报告，你可以参考这些权威数据来验证自家产品的商业模式逻辑。",
+      "student": "关注该项目发布的洞察，能帮你理清AI如何重塑就业与产业结构，是写论文和理解行业趋势的优质素材。"
     },
     "persona_labels": [
       "创业者",
       "学生"
-    ]
-  },
-  {
-    "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-    "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.971246",
-    "summary_zh": "NVIDIA近日发布了表格数据预测框架Kumo Tabular，在保持极高预测精度的同时，显著降低了计算资源需求。该技术成功打破了表格学习领域的效率瓶颈，为金融、医疗等需要大规模结构化数据分析的行业提供了更具性价比的部署方案。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "这项技术能帮你大幅降低处理财务或用户数据时的计算成本，用更便宜的硬件实现更精准的商业预测。",
-      "developer": "你可以直接使用这个新框架来替代老旧模型，它能让你的表格处理程序运行得更快，且不损失模型精度。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-    "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.971263",
-    "summary_zh": "研究人员提出了一种名为“源感知验证”（Source-Aware Verification）的新方法，旨在提升多步骤推理（MCP）智能体在处理信息时的准确性。该技术不仅关注事实的正确性，还强调对信息来源进行严格溯源，从而有效降低大模型生成内容时的“幻觉”风险。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "这项技术能大幅降低AI应用的幻觉，是构建医疗、法律等高可靠性商业化Agent的关键技术壁垒。",
-      "developer": "在开发Agent时引入溯源验证逻辑，能有效提升复杂任务的推理准确率，是优化模型输出质量的新思路。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Holo4: powering generalist computer-use agents",
-    "url": "https://huggingface.co/blog/Hcompany/holo4",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-09-30T04:38:22.971269",
-    "summary_zh": "Holo4 近日发布，该系统通过创新的架构实现了通用计算机操作能力，能够像人类一样跨软件执行复杂任务。这项技术标志着智能体向“自主操作电脑”迈出了关键一步，有望在办公自动化和人机交互领域带来深远变革。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "办公自动化迎来变革，未来你可以直接用AI代替人工完成复杂的跨软件业务流程，极大降低运营人力成本。",
-      "developer": "这是计算机操作智能体架构的重要参考，你可以利用其技术思路开发出能自主操控多款软件的应用工具。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
     ]
   }
 ]
