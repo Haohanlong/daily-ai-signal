@@ -1,40 +1,19 @@
 [
   {
-    "title": "Google Gemini routes personal Drive files and emails to human annotators",
-    "url": "https://github.com/thisisme6598/gemini_files/",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 716,
-    "fetched_at": "2026-11-11T05:15:23.538666",
-    "summary_zh": "Google被曝会将用户的个人云端硬盘文档及电子邮件内容发送给人工审核员进行标注。此举引发了外界对谷歌AI产品隐私合规及数据安全保护机制的广泛质疑。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "企业选型AI工具时需警惕数据隐私合规风险，涉及核心商业机密的文档切勿直接上传至公共大模型平台。",
-      "creator": "这一隐私争议是极佳的选题，可探讨大模型训练背后的数据伦理，警惕个人隐私在AI时代无处遁形的社会议题。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
     "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
     "url": "https://github.com/synchopate/llama-modchip",
     "source": "Hacker News",
     "summary_raw": "",
     "score": 483,
-    "fetched_at": "2026-11-11T05:15:24.373987",
-    "summary_zh": "开发者推出名为“Llama-modchip”的开源项目，通过技术手段实现在仅有64GB内存的设备上运行284B参数的DeepSeek模型，且无需依赖任何GPU。该突破显著降低了部署超大规模人工智能模型的硬件门槛，为个人电脑和轻量级服务器高效运行顶尖模型提供了新路径。",
+    "fetched_at": "2026-11-12T06:19:31.029146",
+    "summary_zh": "开发者发布了名为“Llama-modchip”的解决方案，成功在仅配备64GB内存、无独立显卡的设备上运行了284B参数的DeepSeek模型。此举极大降低了超大参数量模型的使用门槛，证明了通过优化推理架构，消费级硬件也能处理此前仅限数据中心部署的顶级AI模型。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "算力成本不再是入局壁垒，你可以用更低廉的硬件基础设施部署高性能模型，大幅压缩私有化AI项目的启动开支。",
-      "developer": "该项目验证了无需GPU的大内存推理路径，未来你可以尝试在普通服务器或边缘设备上部署超大规模模型，极大地优化了部署架构。"
+      "founder": "大模型部署成本将暴跌，你无需昂贵的显卡集群也能让私有化定制AI产品落地，极大拓宽了垂直行业的商业化空间。",
+      "developer": "这项技术绕过了显存限制，意味着你能在个人设备上本地部署超大模型，为开发低成本、高性能的AI应用提供了新思路。"
     },
     "persona_labels": [
       "创业者",
@@ -42,24 +21,45 @@
     ]
   },
   {
-    "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-    "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+    "title": "Gemini Decisions API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 407,
-    "fetched_at": "2026-11-11T05:15:24.373993",
-    "summary_zh": "MaxxBench 平台近日发布了针对 AI 模型性能评估的质疑，指出当前流行的 DeepSWE 分数可能存在水分或不准确性。这一发现引发了业界对 AI 基准测试透明度及数据真实性的广泛讨论，提醒开发者在评估模型性能时需保持审慎。",
+    "score": 356,
+    "fetched_at": "2026-11-12T06:19:30.156785",
+    "summary_zh": "Google 近日发布了 Gemini Decisions API，旨在帮助企业根据复杂的业务数据自动执行推理决策。这一更新通过将 Gemini 的多模态分析能力与自动化流程结合，标志着大模型从单纯的“内容生成”向“自主决策支持”迈出了重要一步。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "在采纳模型供应商宣称的性能指标时，务必进行二次交叉验证，避免被虚高的基准测试评分误导商业决策。",
-      "developer": "别盲信DeepSWE评分，建议在实际项目中通过自测数据集对模型进行基准复核，以确保选型符合真实业务需求。"
+      "founder": "你的企业应用可以引入AI做经营判断，这能大幅降低人工审核成本，直接转化为自动化降本增效的商业筹码。",
+      "developer": "直接调用API即可让模型输出结构化的业务决策指令，能省去大量编写复杂业务逻辑和Prompt嵌套的麻烦。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
+    ]
+  },
+  {
+    "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+    "url": "https://github.com/FrigadeHQ/yogurt",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 215,
+    "fetched_at": "2026-11-12T06:19:30.465257",
+    "summary_zh": "开发者发布了一款名为 Yogurt 的开源工具，作为 Granola 的免费私有替代品。该项目主打隐私保护与自主可控，为寻求笔记与任务管理方案的用户提供了更透明的选择。",
+    "personas": [
+      "developer",
+      "creator"
+    ],
+    "takeaways": {
+      "developer": "若你正在寻找 Granola 的开源平替或想参与隐私工具开发，可关注其架构设计并将其作为构建本地化效率工具的参考。",
+      "creator": "Granola 等笔记工具正在引发关于隐私和费用的讨论，你可以将其作为选题，对比分析开源工具如何通过私有化赢得用户。"
+    },
+    "persona_labels": [
+      "程序员",
+      "内容创作者"
     ]
   },
   {
@@ -68,120 +68,36 @@
     "source": "OpenAI Blog",
     "summary_raw": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.059737",
-    "summary_zh": "知名律所 Gilbert + Tobin 近期通过引入人工智能技术重塑法律业务模式。这一举措标志着传统法律服务行业正加速向数字化转型，旨在通过 AI 提升处理复杂法律事务的效率与核心竞争力。",
+    "fetched_at": "2026-11-12T06:19:31.513004",
+    "summary_zh": "澳大利亚顶尖律所 Gilbert + Tobin 正通过深度整合人工智能技术，重塑法律行业的业务模式与运营逻辑。这一举措标志着传统法律服务向数字化、自动化转型迈出了关键一步，展示了 AI 在提升高门槛专业服务效率与竞争力方面的巨大潜力。",
     "personas": [
       "founder",
-      "developer"
+      "creator"
     ],
     "takeaways": {
-      "founder": "即使是高度依赖人工的专业服务业，也能通过AI重构交付流程，这启发你在业务中寻找低效的重复环节进行自动化替代。",
-      "developer": "法律科技正成为AI应用的新蓝海，这意味着针对合规性、文档分析等垂直场景的定制化开发需求将持续增长，职业方向可重点关注。"
+      "founder": "顶级律所的数字化转型证明，AI在法律等复杂行业已进入深层业务流，你的公司若未开始重构流程将面临效率掉队。",
+      "creator": "法律行业拥抱AI是极佳的行业叙事素材，你可以由此展开讨论：那些看似无法被替代的专业精英岗位，正如何被技术悄然重塑。"
     },
     "persona_labels": [
       "创业者",
-      "程序员"
+      "内容创作者"
     ]
   },
   {
-    "title": "Helping caregivers use AI in everyday life",
-    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "title": "ChatGPT Plus for veterans and servicemembers",
+    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
     "source": "OpenAI Blog",
-    "summary_raw": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "summary_raw": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.059758",
-    "summary_zh": "OpenAI Academy 正计划在美国五座城市举办免费的 ChatGPT 线下工作坊，旨在向照护人员传授如何利用 AI 简化日常任务。此举标志着 AI 技术应用场景的进一步下沉，重点在于提升照护群体在实际生活中的数字化协作能力。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "AI应用不再局限于线上，深耕养老护理等垂直场景的线下地推模式，或将成为获客与建立行业壁垒的新思路。",
-      "creator": "大厂开始关注AI在生活琐事中的具体落地，你可以以此为切入点，制作AI如何减轻家庭负担的实操类科普内容。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "Introducing Businesses in ChatGPT",
-    "url": "https://openai.com/index/introducing-businesses-chatgpt",
-    "source": "OpenAI Blog",
-    "summary_raw": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-    "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.059762",
-    "summary_zh": "OpenAI 近日为 ChatGPT 引入了企业管理功能，允许商家在对话界面中直接管理业务信息、获取流量洞察并转化潜在客户。此举标志着 ChatGPT 正从简单的对话机器人向商业生态系统转型，为企业提供了直接触达用户的新流量入口。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "这是个全新的低成本获客渠道，你需要考虑如何将业务嵌入对话流，抢占AI时代的首批搜索流量入口。",
-      "creator": "AI不再只是聊天工具，未来会有大量企业利用其做营销，你可以提前关注相关玩法，输出高质量的测评教程。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-    "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-    "source": "TechCrunch AI",
-    "summary_raw": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-    "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.327861",
-    "summary_zh": "纽约州人工智能安全法案正式生效，要求OpenAI、Anthropic等大型开发商必须进行注册并公开安全实践及关键事故报告。此举标志着地方监管力度升级，强制企业履行透明度义务以应对潜在的AI技术风险。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "AI产品合规成本将上升，需提前规划隐私与安全审计流程，避免在扩张期因监管合规缺位而被迫下架或面临高额罚款。",
-      "developer": "大模型开发将受更严的透明度约束，需关注模型安全文档的规范化，未来版本迭代时对事故记录和风险评估的要求会更高。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-    "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-    "source": "TechCrunch AI",
-    "summary_raw": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
-    "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.327864",
-    "summary_zh": "Anthropic的七位联合创始人计划在公司IPO中通过出售部分股份，每人套现约2.5亿美元。尽管此次减持规模较大，但他们仍将保留对公司的控制权，这一动向反映了人工智能行业核心人物在上市前夕的资产变现策略。",
-    "personas": [
-      "founder",
-      "creator"
-    ],
-    "takeaways": {
-      "founder": "创始人套现不仅是落袋为安，更标志着AI独角兽已进入资本兑现期，提醒你在规划融资路径时要平衡好股权结构与长期激励。",
-      "creator": "这类天价套现新闻极具话题性，你可以从‘AI创富神话’或‘技术大佬的资产配置’角度切入，制作高关注度的财经类短视频。"
-    },
-    "persona_labels": [
-      "创业者",
-      "内容创作者"
-    ]
-  },
-  {
-    "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-    "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-    "source": "TechCrunch AI",
-    "summary_raw": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
-    "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.327867",
-    "summary_zh": "智能穿戴设备厂商 Oura 宣布以 6.25 亿美元收购 AI 初级保健初创公司 Counsel Health。此举发生在该公司因市场不确定性推迟 IPO 后不久，标志着 Oura 正试图通过整合 AI 医疗服务，加速从硬件向综合健康平台转型。",
+    "fetched_at": "2026-11-12T06:19:31.513022",
+    "summary_zh": "超过2万名退伍军人和现役军人已成功申领为期一年的免费ChatGPT Plus会员资格。此举旨在帮助退伍群体通过AI工具提升技能，从而更顺利地完成从军旅生涯向民用职业的转型。",
     "personas": [
       "founder",
       "student"
     ],
     "takeaways": {
-      "founder": "硬件公司靠卖设备很难支撑高估值，通过并购医疗服务实现“硬件+服务”转型，是提升用户黏性和商业价值的新路径。",
-      "student": "可穿戴设备不再只是简单的计步器，未来将向主动式AI医疗平台进化，这是大健康与人工智能深度融合的关键风向。"
+      "founder": "关注AI在垂直细分领域的落地，退伍军人再就业场景是值得尝试的社会公益型商业切入点。",
+      "student": "AI正在通过教育赋能不同职业背景的人，了解AI如何辅助转行能帮你预见未来的职场技能需求。"
     },
     "persona_labels": [
       "创业者",
@@ -189,20 +105,20 @@
     ]
   },
   {
-    "title": "Gemini Intelligence: New features, on more devices",
-    "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-    "source": "Google AI Blog",
-    "summary_raw": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "source": "OpenAI Blog",
+    "summary_raw": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.650530",
-    "summary_zh": "谷歌正式发布了Gemini Intelligence，通过引入一系列新功能并扩大设备兼容性，进一步推动AI在移动终端的深度集成。此举旨在提升手机的智能化交互体验，标志着谷歌正在加速将核心AI技术覆盖至更多用户群体。",
+    "fetched_at": "2026-11-12T06:19:31.513025",
+    "summary_zh": "JioStar首席架构师Vijay Seshadri分享了在5亿用户规模下部署AI系统的实战经验，重点探讨了评估体系、安全护栏以及AI落地生产的关键挑战。这一总结不仅揭示了超大规模AI应用的复杂性，也为行业在复杂环境下实现AI工程化提供了极具价值的参考范式。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "谷歌正通过全端覆盖抢占AI入口，你需要评估自家业务是否会被内置的Gemini功能直接替代。",
-      "developer": "AI将成为系统级底层能力，开发者需考虑如何适配Gemini的接口，利用手机原生生态提升应用留存。"
+      "founder": "参考JioStar的经验，在用户规模爆发前就要提前布局AI合规与质量评估体系，避免后期推倒重来增加巨大的研发成本。",
+      "developer": "对于处理超大规模数据的AI工程，应重点关注从模型验证到安全护栏的实战流程，这是解决系统在大流量下稳定运行的关键。"
     },
     "persona_labels": [
       "创业者",
@@ -210,45 +126,135 @@
     ]
   },
   {
-    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-    "source": "Google AI Blog",
-    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp\" />Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+    "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+    "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.650538",
-    "summary_zh": "Google 与 Adobe 宣布深化合作，将 Adobe 的创意及生产力工具直接整合进 Google 云端硬盘与 Gemini 等应用中。此次集成让用户能直接在云端编辑 PDF 并调用 Adobe 的 AI 功能，显著提升了办公生态的协同效率与创作体验。",
+    "fetched_at": "2026-11-12T06:19:31.763791",
+    "summary_zh": "尽管英伟达目前尚未制定明确的接班人计划，但鉴于黄仁勋在公司内的核心地位及当前面临的舆论压力，外界已开始探讨其潜在的继任人选。这份非官方的候选名单引发了市场对英伟达未来领导层稳定性的关注，以及对该公司在后黄仁勋时代如何保持增长的思考。",
     "personas": [
       "founder",
-      "creator"
+      "student"
     ],
     "takeaways": {
-      "founder": "办公流集成是大势所趋，这类生态打通将降低企业员工的协作摩擦，评估你的产品是否应接入大平台以获取流量。",
-      "creator": "以后在云盘里就能直接用Adobe AI修图改文档，省去了反复下载上传的繁琐操作，能大幅提升你的多平台内容产出效率。"
+      "founder": "英伟达目前过度依赖黄仁勋的个人魅力，这对投资者来说是潜在的治理风险，你在评估巨头合作伙伴时也需警惕这种‘核心人物依赖症’。",
+      "student": "黄仁勋的接班问题是观察科技巨头公司治理的窗口，即便英伟达目前如日中天，失去灵魂人物后的组织惯性依然是行业关注的焦点。"
     },
     "persona_labels": [
       "创业者",
+      "学生"
+    ]
+  },
+  {
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "source": "TechCrunch AI",
+    "summary_raw": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "score": 0,
+    "fetched_at": "2026-11-12T06:19:31.763801",
+    "summary_zh": "英伟达CEO黄仁勋正深陷一场舆论风波，相关争议的时间线已被梳理公布。由于英伟达在人工智能基础设施领域的核心地位，该事件不仅涉及企业声誉，更可能影响美中在AI领域的尖端技术竞争与国家安全战略。",
+    "personas": [
+      "founder",
+      "student"
+    ],
+    "takeaways": {
+      "founder": "警惕核心供应链过度集中的地缘风险，评估公司对单一供应商依赖度并储备备选方案。",
+      "student": "了解英伟达在全球科技博弈中的权力地位，明白大公司的舆论风波往往是国际政治的缩影。"
+    },
+    "persona_labels": [
+      "创业者",
+      "学生"
+    ]
+  },
+  {
+    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+    "source": "TechCrunch AI",
+    "summary_raw": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+    "score": 0,
+    "fetched_at": "2026-11-12T06:19:31.763803",
+    "summary_zh": "受英伟达董事会计划罢免创始人兼CEO黄仁勋的消息影响，该公司股价出现震荡。这一重大人事变动若在周三晚间最终落地，将终结黄仁勋长达33年的掌舵期，对全球AI硬件产业格局产生深远震荡。",
+    "personas": [
+      "founder",
+      "student",
+      "creator"
+    ],
+    "takeaways": {
+      "founder": "若灵魂人物更迭，AI硬件供应链的议价权和战略重心可能重构，需重新评估对英伟达的依赖度。",
+      "student": "作为AI时代的风向标，此变动预示着行业从个人英雄主义向成熟企业治理的转型，值得重点关注。",
+      "creator": "这是全球科技圈年度顶流八卦，利用此重磅争议话题，可深度剖析黄仁勋对AI产业的决定性影响力。"
+    },
+    "persona_labels": [
+      "创业者",
+      "学生",
       "内容创作者"
     ]
   },
   {
-    "title": "Google Cloud launches Gemini for healthcare.",
-    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
     "source": "Google AI Blog",
-    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp\" />Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+    "summary_raw": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:25.650542",
-    "summary_zh": "Google Cloud 现已推出面向医疗行业的 Gemini 工具，旨在通过统一临床数据和自动化处理工作流，显著降低医护人员的行政负担。该举措将人工智能深度集成至临床实践，对于优化医疗资源配置及提升行业运行效率具有重要意义。",
+    "fetched_at": "2026-11-12T06:19:31.938596",
+    "summary_zh": "Google 近日发布了 Gemini Decisions API，旨在帮助企业根据复杂的业务数据自动执行推理决策。这一更新通过将 Gemini 的多模态分析能力与自动化流程结合，标志着大模型从单纯的“内容生成”向“自主决策支持”迈出了重要一步。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "医疗AI赛道进入深水区，这意味着从泛化模型转向垂直业务流闭环已成巨头基建，你应该关注如何构建行业壁垒。",
-      "developer": "这意味着Google已将医疗数据处理能力API化，你可以利用这些接口开发符合合规要求的临床辅助诊断应用。"
+      "founder": "你的企业应用可以引入AI做经营判断，这能大幅降低人工审核成本，直接转化为自动化降本增效的商业筹码。",
+      "developer": "直接调用API即可让模型输出结构化的业务决策指令，能省去大量编写复杂业务逻辑和Prompt嵌套的麻烦。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
+    ]
+  },
+  {
+    "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "source": "Google AI Blog",
+    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\" />Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+    "score": 0,
+    "fetched_at": "2026-11-12T06:19:31.938606",
+    "summary_zh": "Google Labs 推出了名为“Tabletop”的全新协作实验平台，旨在帮助团队通过自定义的互动界面高效完成行程规划、投票及任务编排。该工具通过将碎片化的协作流程整合进交互式面板，为群体远程协作提供了更加灵活且直观的解决方案，目前已开启候补名单。",
+    "personas": [
+      "founder",
+      "creator",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "别急着开发自用办公工具，利用此类模块化平台能以低成本验证团队协作效率，快速搭建内部业务流程。",
+      "creator": "这是一款极具可视化社交潜力的协作工具，适合制作远程办公测评或团队任务管理类的选题素材。",
+      "developer": "关注谷歌如何将交互式面板组件化，这预示着未来协作软件将从复杂的单一APP转向可定制的轻量化组件。"
+    },
+    "persona_labels": [
+      "创业者",
+      "内容创作者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+    "source": "Google AI Blog",
+    "summary_raw": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+    "score": 0,
+    "fetched_at": "2026-11-12T06:19:31.938609",
+    "summary_zh": "南非国宝级艺术家埃丝特·马兰古（Dr. Esther Mahlangu）的艺术成就与传奇人生正在展出，本次展览由金山大学艺术学院的高级讲师诺通贝科·恩通贝拉博士策划。作为将恩德贝莱传统壁画艺术推向国际舞台的先驱，马兰古对当代艺术史的影响力及其跨文化的叙事价值使其备受关注。",
+    "personas": [
+      "student",
+      "creator"
+    ],
+    "takeaways": {
+      "student": "了解全球文化艺术如何与当代商业叙事结合，是艺术与人文跨学科研究的重要案例。",
+      "creator": "这类非遗传承与现代叙事结合的选题，极其适合制作人文类深度内容，能为你的频道增加文化厚度和高级感。"
+    },
+    "persona_labels": [
+      "学生",
+      "内容创作者"
     ]
   },
   {
@@ -257,15 +263,39 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:26.010006",
-    "summary_zh": "研究人员推出了名为BotPsy的端侧个人助理，该系统搭载了一个参数量小于10亿的智能代理语言模型。得益于极小的模型规模，这一方案实现了在本地设备上高效运行复杂任务，为离线且低能耗的个人AI助理应用提供了新范式。",
+    "fetched_at": "2026-11-12T06:19:32.186975",
+    "summary_zh": "研究人员推出了名为BotPsy的端侧个人助理，其核心是参数量不足10亿的轻量化智能体语言模型。该成果证明了在本地设备上运行复杂代理任务的可行性，为移动端隐私保护与低功耗AI应用提供了全新的技术路径。",
+    "personas": [
+      "founder",
+      "developer",
+      "student"
+    ],
+    "takeaways": {
+      "founder": "设备端AI将成商业标配，这意味着无需云端高昂成本，即可让你的产品具备更隐私、响应更快的智能代理功能。",
+      "developer": "这是端侧AI的新范式，你可以关注该模型的架构，尝试将低功耗代理技术集成到各类移动应用开发中。",
+      "student": "AI正在变轻，以后手机本地就能运行复杂任务，这预示着个人助理将迎来不依赖网络也能思考的普及化时代。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员",
+      "学生"
+    ]
+  },
+  {
+    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+    "url": "https://huggingface.co/blog/token-pooling",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
+    "score": 0,
+    "fetched_at": "2026-11-12T06:19:32.186990",
+    "summary_zh": "针对多向量检索模型，研究人员提出了一种“池化感知训练”（Token Pooling-Aware Training）方案。该方法通过将池化策略直接纳入训练环节，有效解决了多向量表征在压缩过程中的信息损失问题，从而显著提升了大规模语义搜索的准确性与效率。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "设备端AI将摆脱对云端的依赖，这意味着你可以开发离线隐私保护更好、成本更低且响应极快的本地化AI产品。",
-      "developer": "这证明了十亿参数以下的小模型也能胜任复杂任务，开发者们可以尝试将AI功能直接嵌入手机端应用，无需考虑服务器部署。"
+      "founder": "这项技术能让你的搜索产品在不增加硬件成本的前提下，更精准地理解用户意图，提升核心产品的转化率。",
+      "developer": "你可以直接利用该方案优化模型训练流程，减少多向量嵌入在压缩时的信息丢失，从而显著提高大规模搜索的召回效率。"
     },
     "persona_labels": [
       "创业者",
@@ -278,36 +308,15 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-11T05:15:26.010017",
-    "summary_zh": "Google Cloud 已正式支持用户通过其云端结算账户支付 Hugging Face Hub 的相关费用。此举简化了企业级客户的付费流程，进一步降低了开发者在云基础设施上部署和使用 AI 模型的门槛，增强了双方生态系统的联动。",
+    "fetched_at": "2026-11-12T06:19:32.186993",
+    "summary_zh": "Hugging Face已正式支持用户通过Google Cloud结算账户支付Hugging Face Hub的相关费用。此举简化了企业级用户的采购流程，进一步打通了主流云服务与AI开发生态的计费体系。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "企业采购AI服务流程更顺滑了，你可以直接走云厂商账单采购Hugging Face服务，无需额外处理繁琐报销。",
-      "developer": "以后部署模型付费更方便，直接在Google Cloud结算即可，省去了反复绑定信用卡和开票的麻烦事。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Decision Models in Hugging Face",
-    "url": "https://huggingface.co/blog/decision",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-11T05:15:26.010021",
-    "summary_zh": "Hugging Face 近日正式引入决策模型（Decision Models）支持，将机器学习模型从传统的预测分析扩展至能够根据上下文自动做出决策的交互式系统。此举不仅降低了复杂决策逻辑的开发门槛，还标志着 AI 范式从单纯的内容生成向更具行动力的自主代理（Agents）方向加速演进。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "AI应用将从简单的问答进化为自主执行任务的代理人，你应该考虑如何利用此工具重构现有业务流程以提升自动化效率。",
-      "developer": "平台现在支持部署决策模型，你可以直接调用这些接口构建能自动处理复杂逻辑的智能Agent，无需再从零开发策略算法。"
+      "founder": "通过云厂商直接报销AI资源费，能简化企业的财务合规流程，加速AI应用部署与采购落地。",
+      "developer": "无需单独维护支付渠道，可直接调用公司云账户额度支付算力费用，让团队协作开发更高效便捷。"
     },
     "persona_labels": [
       "创业者",
