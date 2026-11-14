@@ -1,40 +1,43 @@
 [
   {
-    "title": "Anthropic IPO",
-    "url": "https://ipo.anthropic.com/us/",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 874,
-    "fetched_at": "2026-11-13T05:40:27.669507",
-    "summary_zh": "AI初创公司Anthropic正积极为首次公开募股（IPO）做准备，并已开始接洽潜在的承销商。作为OpenAI的主要竞争对手，Anthropic在AI大模型领域的快速发展及商业化进程备受市场瞩目，其上市计划标志着AI行业资本运作进入新的活跃阶段。",
+    "score": 496,
+    "fetched_at": "2026-11-14T05:29:59.841788",
+    "summary_zh": "Google即将发布代号为“Hydrogen”的Gemini 4模型，并引入名为“Orchestrator”的全新AI代理系统。这一组合旨在通过自动化复杂任务的规划与执行，大幅提升AI在实际应用中的决策能力与协作效率，是Google向Agentic AI（代理式AI）转型的关键一步。",
     "personas": [
       "founder",
-      "student"
+      "developer",
+      "creator"
     ],
     "takeaways": {
-      "founder": "AI赛道商业模式正受资本认可，你需要评估竞争格局变化，并思考在巨头上市后的市场空隙中寻找差异化机会。",
-      "student": "AI行业正从纯技术研发转向大规模资本运作，这标志着该领域已进入成熟商业化阶段，是值得重点关注的行业转折点。"
+      "founder": "AI正从聊天工具进化为执行代理，这意味着业务流程自动化的效率将有质的飞跃，需尽早规划AI协作场景。",
+      "developer": "Orchestrator系统的出现预示着开发重心转向AI任务规划，未来应用将更侧重于Agent架构的设计与部署。",
+      "creator": "AI能自动执行复杂任务了，这为制作深度测评或展示未来工作流的内容提供了极具话题性的选题素材。"
     },
     "persona_labels": [
       "创业者",
-      "学生"
+      "程序员",
+      "内容创作者"
     ]
   },
   {
-    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-    "url": "https://github.com/synchopate/llama-modchip",
+    "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 483,
-    "fetched_at": "2026-11-13T05:40:27.954248",
-    "summary_zh": "开发者推出名为“Llama-modchip”的方案，成功在仅配备64GB内存、无独立显卡的设备上运行了2840亿参数的DeepSeek模型。这一突破大幅降低了运行超大规模大模型的硬件门槛，展示了通过内存优化技术在消费级硬件上部署顶级AI的可能性。",
+    "score": 179,
+    "fetched_at": "2026-11-14T05:29:58.929118",
+    "summary_zh": "英伟达被指控通过资助人工智能初创公司购买自家显卡，从而人为制造市场短缺并推高需求。这一操作涉嫌操纵市场竞争与定价，引发了业界对其垄断行为及财务数据真实性的广泛质疑。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "算力成本不再是顶级模型的壁垒，你可以利用消费级硬件快速部署企业内部专有大模型，大幅压低运营成本。",
-      "developer": "这套方案证明了内存优化技术的潜力，通过非GPU路径也能跑超大规模模型，让你在资源受限的情况下也能实现高性能部署。"
+      "founder": "警惕依赖大厂补贴的商业模式，若上游厂商存在操纵市场嫌疑，你的融资与供应链稳定性可能随时面临监管合规风险。",
+      "developer": "这种人为制造的算力紧缺可能导致训练成本虚高，建议优先评估国产算力或云服务替代方案，以规避潜在的行业波动。"
     },
     "persona_labels": [
       "创业者",
@@ -42,20 +45,62 @@
     ]
   },
   {
-    "title": "Gemini 4 Hydrogen and Orchestrator",
-    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "title": "OpenAI disbands its robotics team as its general models start running robots",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 358,
-    "fetched_at": "2026-11-13T05:40:27.130368",
-    "summary_zh": "谷歌正在研发代号为“Hydrogen”的Gemini 4模型及配套的Orchestrator（编排器）系统。此举旨在通过优化模型架构与任务调度能力，大幅提升AI处理复杂逻辑的效率与响应速度，标志着谷歌在构建下一代大模型技术栈上迈出关键一步。",
+    "score": 154,
+    "fetched_at": "2026-11-14T05:30:00.038066",
+    "summary_zh": "OpenAI已正式解散其机器人团队，转而将研发重心全面转向通用人工智能模型在机器人领域的应用。此举标志着OpenAI不再直接参与硬件制造，而是致力于通过多模态大模型赋予机器人更强大的理解与执行能力。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "谷歌正在重塑AI处理逻辑的底层框架，这意味着未来大模型应用将告别“慢吞吞”的推理，商业化落地将迎来降本增效的转折点。",
-      "developer": "该动态揭示了AI开发正从单模型转向“编排化”架构，开发者需关注模型调度系统的设计，这将是决定复杂业务应用性能的关键。"
+      "founder": "硬件研发太烧钱且回报周期长，OpenAI正战略性撤退转做大脑，建议关注具身智能领域的算法授权与软件适配机会。",
+      "developer": "OpenAI不再造机器人本体，意味着未来大家都能用现成的通用模型去驱动各种机械臂，软件定义的机器人时代加速到来。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Introducing ChatGPT Wallet",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "source": "OpenAI Blog",
+    "summary_raw": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "score": 0,
+    "fetched_at": "2026-11-14T05:30:01.174794",
+    "summary_zh": "OpenAI 正式推出 ChatGPT Wallet 功能，允许 ChatGPT Work 及相关智能体在获得用户授权后，直接调用账户内已关联的支付方式完成购物。此举标志着 AI 从信息交互向执行交易的深度转变，将进一步打通智能体在商务场景中的落地闭环。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "AI应用将从对话转向直接带货，需抓紧布局支付接入，抢占智能体商业闭环的红利。",
+      "developer": "OpenAI即将开放支付API接口，这意味着智能体开发将接入真实交易功能，应用变现逻辑发生质变。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "source": "OpenAI Blog",
+    "summary_raw": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+    "score": 0,
+    "fetched_at": "2026-11-14T05:30:01.174807",
+    "summary_zh": "Shield平台近日集成OpenAI技术，旨在协助IT技术人员处理遗留系统的繁琐操作。该方案通过自动化代理完成系统导航工作，显著提升了技术人员处理复杂问题的效率，是利用AI赋能传统IT架构的典型案例。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "别急着推倒重来，通过AI代理改造旧系统是降低技术债务、以极低成本实现业务数字化升级的高效路径。",
+      "developer": "这是AI介入运维的新信号，利用自动化Agent处理枯燥的旧系统导航，能把你从繁琐的适配工作中彻底解放出来。"
     },
     "persona_labels": [
       "创业者",
@@ -68,15 +113,15 @@
     "source": "OpenAI Blog",
     "summary_raw": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.668712",
-    "summary_zh": "数据分析平台 Amplitude 推出 AI 产品代理 Wave，通过集成 OpenAI 模型，实现了从需求洞察、代码编写到效果评估的全链路自动化。这一工具将产品迭代周期缩短至 1–2 天，标志着 AI 正在从辅助开发向自主闭环的产品研发模式演进。",
+    "fetched_at": "2026-11-14T05:30:01.174812",
+    "summary_zh": "数据分析平台 Amplitude 推出 AI 产品助手 Wave，通过集成 OpenAI 模型实现从需求发现、代码编写到效果评估的自动化闭环。这一工具将产品迭代周期缩短至 1–2 天，展示了 AI Agent 在企业核心研发工作流中替代人工执行、加速产品创新的应用潜力。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别再单纯把AI当作聊天机器人，这标志着产品研发流程进入了分钟级迭代时代，你需要重新审视内部团队的开发效率基准。",
-      "developer": "这种全链路自动化预示着开发者的职责将从写代码转向定义逻辑与审核，建议关注如何利用AI代理工具减少重复性的工程量。"
+      "founder": "别再单纯把AI当聊天工具了，它已能通过流程自动化将产品研发周期缩短至两天，这是提升团队敏捷度与市场竞争力的新范式。",
+      "developer": "关注AI在研发工作流中的Agent化趋势，未来写代码将不仅是手动实现，而是通过模型串联需求与评估，提升交付效率。"
     },
     "persona_labels": [
       "创业者",
@@ -84,62 +129,20 @@
     ]
   },
   {
-    "title": "Gondola doubles revenue as its team builds more with Codex",
-    "url": "https://openai.com/business/customer-stories/gondola",
-    "source": "OpenAI Blog",
-    "summary_raw": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-    "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.668725",
-    "summary_zh": "创意人才平台 Gondola 近期营收实现翻倍，这主要得益于工程团队通过接入 Codex 和 ChatGPT 有效提升了开发效率。该案例展示了 AI 工具在优化工程产出及简化日常工作流方面的显著效能，为初创团队利用 AI 降本增效提供了参考。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "别再盲目扩张人力，参考Gondola经验，利用AI辅助开发能让小团队产出翻倍，显著提高资金利用率。",
-      "developer": "将Codex等AI工具深度集成到开发流中，能帮你剥离重复编码工作，把时间花在更具核心竞争力的架构设计上。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Holiday Extras is rethinking what it can build with Codex",
-    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-    "source": "OpenAI Blog",
-    "summary_raw": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-    "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.668729",
-    "summary_zh": "旅游服务平台 Holiday Extras 正利用 OpenAI 的 Codex 模型将客户服务经验转化为自动化开发能力，成功提升了应用性能与订单转化率。此举标志着企业开始通过 AI 代码生成技术，将领域专业知识直接转化为核心业务增长动力，为传统旅游业的数字化转型提供了新范式。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "别只把AI当聊天机器人，要学会像这家公司一样，把行业经验喂给模型来提效降本，抢占业务增长先机。",
-      "developer": "你可以借鉴这种把Codex接入业务流程的思路，用AI自动生成高频业务代码，从而把精力腾出来解决更核心的技术难题。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-    "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
     "source": "TechCrunch AI",
-    "summary_raw": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+    "summary_raw": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.982698",
-    "summary_zh": "美国国会民主党人近日对英伟达展开调查，指控其在对华芯片销售及与特朗普的潜在往来中存在违规行为。这是英伟达在“间谍风波”后遭遇的第二次国会调查，其政商关系的合规性正面临严峻的政治审视。",
+    "fetched_at": "2026-11-14T05:30:01.475396",
+    "summary_zh": "英伟达CEO黄仁勋在AI初创企业融资中发挥了核心带动作用，其影响力使得此前大量资本涌入该领域。市场担忧随着黄仁勋未来可能的卸任，AI初创公司的融资规模和估值或将面临显著下调。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "地缘政治已成核心运营风险，跨国业务需重新评估合规边际，在政商关系处理上务必保持极度审慎。",
-      "creator": "英伟达卷入美政党博弈是绝佳的科技热点，可从其政商关系复杂化切入，分析AI巨头如何应对监管风暴。"
+      "founder": "若你依赖头部大佬背书融资，需尽快建立独立盈利模型，避免因行业风向改变导致估值崩塌。",
+      "creator": "这折射出AI泡沫初现，可深度挖掘科技圈背后的资本逻辑，制作关于AI泡沫破裂或转型方向的选题。"
     },
     "persona_labels": [
       "创业者",
@@ -147,20 +150,20 @@
     ]
   },
   {
-    "title": "Muse can now place calls to US businesses — if you pay",
-    "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+    "title": "AI agent startup LangChain hits $3B valuation",
+    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
     "source": "TechCrunch AI",
-    "summary_raw": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+    "summary_raw": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.982706",
-    "summary_zh": "AI助手Muse正式上线了针对美国企业的自动化外呼通话功能，该服务需要用户付费订阅才可使用。这一更新标志着AI在处理现实世界复杂交互任务上的进一步突破，也预示着人工智能正加速向商业化办公场景深入渗透。",
+    "fetched_at": "2026-11-14T05:30:01.475404",
+    "summary_zh": "AI智能体开发框架LangChain近日完成新一轮融资，公司估值达到30亿美元。随着旗下AI应用开发平台LangSmith客户数突破7000家，该公司已成为大模型应用生态中的核心基础设施，其高估值进一步凸显了市场对AI代理（Agent）工具链的高度青睐。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "AI已具备处理复杂外呼任务的能力，你可评估此工具能否替代人工客服，降低运营成本并提升处理效率。",
-      "developer": "该功能展示了AI与电信API结合的商业路径，你可以关注此类交互的链路设计，为未来开发类似应用做储备。"
+      "founder": "AI Agent开发已成为基建级赛道，这预示着应用层创业需高度依赖成熟工具链以提升落地效率。",
+      "developer": "LangChain已确立行业标准地位，掌握其生态开发能力将成为你在AI领域就业或技术变现的重要筹码。"
     },
     "persona_labels": [
       "创业者",
@@ -168,24 +171,24 @@
     ]
   },
   {
-    "title": "The unfolding Jensen Huang scandal: a timeline",
-    "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
     "source": "TechCrunch AI",
-    "summary_raw": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "summary_raw": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:28.982709",
-    "summary_zh": "英伟达首席执行官黄仁勋因深陷婚外情丑闻宣布辞职。鉴于当前美中两国正处于关键的AI基础设施竞争阶段，此次高层突发变动可能对全球半导体产业格局及国家安全产生深远影响。",
+    "fetched_at": "2026-11-14T05:30:01.475408",
+    "summary_zh": "最新研究显示，中国目前最先进的AI模型均采用了被美国限制出口的英伟达芯片进行训练。这一发现揭示了中国AI产业在面对出口管制时仍具备通过库存或现有硬件维持顶尖研发的能力，引发了市场对相关制裁有效性的广泛讨论。",
     "personas": [
       "founder",
-      "student"
+      "developer"
     ],
     "takeaways": {
-      "founder": "英伟达若遭遇管理层真空，全球AI算力供应链将面临重构，需重新评估算力成本波动及采购战略的调整风险。",
-      "student": "AI芯片霸主发生人事地震，这标志着半导体行业进入动荡期，未来科技巨头的竞争格局可能迎来重大洗牌。"
+      "founder": "这意味着现有算力储备足以支撑短期研发，国内技术迭代并未因制裁瞬间停滞，投资决策应更关注国产算力替代的长期潜力。",
+      "developer": "行业顶尖模型仍依赖英伟达硬件微调或训练，开发者应在保持对主流框架兼容性的同时，同步探索国产芯片的适配方案以降低风险。"
     },
     "persona_labels": [
       "创业者",
-      "学生"
+      "程序员"
     ]
   },
   {
@@ -194,19 +197,19 @@
     "source": "Google AI Blog",
     "summary_raw": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.304854",
-    "summary_zh": "Google 发布了全新的 Gemini Decisions API，旨在提供快速且经过校准的多模态决策支持。该工具通过专用的 Gemini Decision 模型，能有效提升 AI 在复杂环境下的判断精准度与响应速度，对需要实时决策的开发者具有重要意义。",
+    "fetched_at": "2026-11-14T05:30:01.606841",
+    "summary_zh": "Google 发布了 Gemini Decisions API，旨在通过专用的 Gemini Decision 模型提供快速且精确的多模态决策支持。该接口的推出不仅提升了复杂任务的处理速度，还通过校准机制增强了决策的可靠性，为企业级自动化应用提供了更高效的工具。",
     "personas": [
-      "developer",
-      "founder"
+      "founder",
+      "developer"
     ],
     "takeaways": {
-      "developer": "以后做自动化决策时，可以直接调用这个接口提升AI的判断逻辑，省去自己从零训练和调优复杂模型的麻烦。",
-      "founder": "这项技术能让你的AI产品在复杂多变的业务场景中反应更快、决策更稳，是提升核心产品竞争壁垒的关键升级。"
+      "founder": "这项技术能让业务流程自动化更精准、响应更快，你可以考虑用它优化现有的客服、审核或数据决策系统，大幅降低人工介入成本。",
+      "developer": "这是Google推出的高响应决策接口，未来你在开发自动化流程或智能交互应用时，可以直接调用它处理复杂的多模态判断，不必再从零训练模型。"
     },
     "persona_labels": [
-      "程序员",
-      "创业者"
+      "创业者",
+      "程序员"
     ]
   },
   {
@@ -215,15 +218,15 @@
     "source": "Google AI Blog",
     "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\" />Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.304857",
-    "summary_zh": "Google Labs 发布了一项名为 Try Tabletop 的协作实验项目，旨在帮助团队通过自定义的互动组件共同制定计划、发起投票或组织活动。这一工具的推出反映了 Google 试图通过模块化设计，为团队协作提供更灵活、更直观的交互体验。",
+    "fetched_at": "2026-11-14T05:30:01.606845",
+    "summary_zh": "Google Labs 发布了一项名为“Tabletop”的全新协作实验项目，旨在帮助用户通过交互式看板共同制定行程、组织投票及规划活动。这一工具的推出体现了 Google 在探索更灵活、多功能的团队协作模式上的新尝试，目前已开放候补名单。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "通过模块化组件提升内部协作效率，你可以关注此类工具如何低成本实现定制化业务流程。",
-      "creator": "这类具备强互动性的协作工具是做深度测评或展示团队工作流的好素材，极易在社交平台引发讨论。"
+      "founder": "这是团队协作工具的新风向，你可以借鉴其交互式看板的灵活性，评估是否能优化公司内部的项目进度管理。",
+      "creator": "这类具备协作属性的实验性工具通常自带话题性，你可以抢先测试并制作测评视频，抢占Google新产品的流量先机。"
     },
     "persona_labels": [
       "创业者",
@@ -236,82 +239,79 @@
     "source": "Google AI Blog",
     "summary_raw": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.304860",
-    "summary_zh": "南非艺术家埃丝特·马兰古（Dr. Esther Mahlangu）的艺术成就与文化遗产近期受到学术界关注，金山大学策展学高级讲师诺通贝科·恩通贝拉（Dr. Nontobeko Ntombela）为其撰写了深度肖像报道。这一举措不仅是对马兰古在现代艺术领域卓越贡献的致敬，也进一步探讨了非洲传统视觉文化在全球艺术史中的重要地位。",
+    "fetched_at": "2026-11-14T05:30:01.606847",
+    "summary_zh": "南非艺术大师埃丝特·马兰古（Dr. Esther Mahlangu）的艺术成就与文化遗产近期受到广泛关注，相关展览通过多维度视角呈现了其深远的社会影响力。这一展览不仅是对这位艺术家个人风格的致敬，更深入探讨了非洲传统艺术在当代语境下的传承与学术价值。",
     "personas": [
-      "student",
       "creator"
     ],
     "takeaways": {
-      "student": "了解全球艺术史正在去中心化，关注非西方传统文化如何通过现代艺术形式，在国际学术舞台上获得主流认可。",
-      "creator": "学习如何挖掘并讲述带有深厚文化背景的非遗人物故事，这类具有人文底蕴和视觉张力的素材非常适合制作深度的艺术科普内容。"
+      "creator": "这种将民族传统美学与当代展览结合的叙事方式，非常适合用来制作高质感、极具视觉冲击力的人文类科普短视频。"
     },
     "persona_labels": [
-      "学生",
       "内容创作者"
     ]
   },
   {
-    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.678747",
-    "summary_zh": "IBM发布了LLM原生标记语言LLMON，并将其集成至最新的Granite 4.1（3B和8B版本）模型中。该语言通过优化模型对结构化数据的理解与处理能力，显著提升了LLM在处理复杂文档及特定格式任务时的输出精准度。",
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "这种新标记语言让大模型处理复杂数据更稳，你可以尝试接入它来优化应用的数据解析与格式输出。",
-      "founder": "IBM正在尝试定义模型与数据交互的新标准，这可能成为未来提升企业级AI任务准确率的关键技术门槛。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
-    ]
-  },
-  {
-    "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-    "url": "https://huggingface.co/blog/3d-lora-finetuning",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.678760",
-    "summary_zh": "这份指南系统性地梳理了3D生成模型的微调技术，涵盖了从数据准备到参数优化的全流程实践。该内容对于希望提升3D资产生成质量与可控性的开发者具有重要参考价值，填补了当前该领域高质量实操方案的空缺。",
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "这是目前最系统化的3D模型调优实操手册，能帮你解决生成效果不稳、细节丢失等技术瓶颈，直接提升项目落地效率。",
-      "founder": "3D生成正从实验阶段走向工业级可用，这意味着游戏、电商等行业的低成本资产生产线将迎来爆发，建议提前布局技术储备。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
-    ]
-  },
-  {
-    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-    "url": "https://huggingface.co/blog/qvac/botpsy",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-13T05:40:29.678764",
-    "summary_zh": "研究团队推出了名为BotPsy的端侧个人助理，该系统搭载了参数量小于10亿的智能体语言模型。此项技术通过极小的模型规模实现了设备端自主运行，不仅显著降低了隐私风险，也为轻量级AI在移动终端的应用提供了新范式。",
+    "fetched_at": "2026-11-14T05:30:01.908604",
+    "summary_zh": "NVIDIA发布了“SimReady”虚拟资产库，旨在帮助开发者快速构建高保真的机器人抓取与放置（Pick-and-Place）仿真环境。这一举措显著降低了机器人训练的门槛，能够有效缩短AI模型在真实世界部署前的仿真测试周期。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "低成本部署的端侧AI能有效避开隐私合规壁垒，可优先布局无需云端算力的轻量化AI商业应用。",
-      "developer": "模型参数低于10亿意味着可以在手机硬件上跑Agent，开发者现在可以尝试开发无需联网的智能自动化工具。"
+      "founder": "研发机器人不仅是买硬件，利用好这套成熟素材库能大幅缩短仿真周期，帮你更快把样机推向市场并降低前期试错成本。",
+      "developer": "无需从零建模，直接调用这套现成的资产库，即可快速搭建仿真环境，显著提升你训练机器人抓取算法的效率与成功率。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
+    ]
+  },
+  {
+    "title": "XYBench: Helping with the problem behind the question",
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
+    "score": 0,
+    "fetched_at": "2026-11-14T05:30:01.908612",
+    "summary_zh": "研究团队推出了全新的基准测试工具 XYBench，旨在通过识别并解决提示词背后的深层意图来评估大模型的逻辑能力。该工具的独特之处在于能够量化模型在处理含糊不清或存在逻辑陷阱的问题时的表现，为提升人工智能的深度理解水平提供了重要参照。",
+    "personas": [
+      "developer",
+      "student"
+    ],
+    "takeaways": {
+      "developer": "这套工具能帮你精准测试大模型的逻辑纠偏能力，是优化提示词工程与模型鲁棒性的重要测试框架。",
+      "student": "它揭示了AI不仅要能回答问题，更要能识别陷阱，你可以借此了解大模型在深度理解和逻辑推理上的最新进展。"
+    },
+    "persona_labels": [
+      "程序员",
+      "学生"
+    ]
+  },
+  {
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
+    "score": 0,
+    "fetched_at": "2026-11-14T05:30:01.908616",
+    "summary_zh": "llama.cpp 发布 v1.0.0 正式版本，标志着该项目在性能与稳定性上迈入新的发展阶段。作为本地运行大模型的核心工具，其稳定版发布进一步降低了部署门槛，对于推动个人电脑及边缘设备上的 AI 本地化应用具有重要意义。",
+    "personas": [
+      "developer",
+      "founder"
+    ],
+    "takeaways": {
+      "developer": "这是本地部署大模型的行业基准，意味着你能用更低算力在个人设备上跑出高质量AI应用。",
+      "founder": "数据隐私不再是护城河，你可以考虑将核心业务迁移至本地运行，彻底告别高昂的云端API成本。"
+    },
+    "persona_labels": [
+      "程序员",
+      "创业者"
     ]
   }
 ]
