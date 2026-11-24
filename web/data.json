@@ -1,40 +1,109 @@
 [
   {
-    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "title": "VP ≠ VNP over Every Field",
+    "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 935,
-    "fetched_at": "2026-11-23T06:27:26.324765",
-    "summary_zh": "预计到2028年，Anthropic公司87%的电力需求将由天然气提供，11%来自煤炭。这一数据揭示了AI算力扩张与能源消耗之间的严峻矛盾，凸显了电力基础设施在支撑高性能大模型研发时面临的环保压力。",
+    "score": 326,
+    "fetched_at": "2026-11-24T08:57:59.240975",
+    "summary_zh": null,
     "personas": [
-      "founder",
-      "student"
+      "student",
+      "developer"
     ],
     "takeaways": {
-      "founder": "AI基建并非只有芯片，未来能源供给的成本和环保合规将成为决定大模型企业商业化落地速度的核心变量。",
-      "student": "AI行业并非完全绿色的科技，了解能源瓶颈有助于你理解为何AI公司正在疯狂投资电站和核能技术。"
+      "student": "这打破了对复杂计算的固有认知，证明并非所有问题都能通过通用计算简化，是理解前沿算法局限性的硬核知识。",
+      "developer": "在设计高性能系统或复杂逻辑时，需警惕某些计算场景无法被低成本覆盖，避免在算法选型上走入盲目优化的误区。"
     },
     "persona_labels": [
-      "创业者",
+      "学生",
+      "程序员"
+    ]
+  },
+  {
+    "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 166,
+    "fetched_at": "2026-11-24T08:57:59.447231",
+    "personas": [
+      "student"
+    ],
+    "takeaways": {},
+    "persona_labels": [
       "学生"
     ]
   },
   {
-    "title": "Perplexity and Intelligence",
-    "url": "https://openai.com/index/perplexity-and-intelligence/",
+    "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+    "url": "https://openai.com/index/introducing-shirudo/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 547,
-    "fetched_at": "2026-11-23T06:27:26.078171",
-    "summary_zh": "Perplexity 正式推出名为“Perplexity Pages”的新功能，允许用户将搜索结果一键生成为格式精美的长文报告。此举标志着该平台从单纯的 AI 搜索引擎向内容创作工具转型，进一步提升了其在知识整理与信息生产领域的实用价值。",
+    "score": 67,
+    "fetched_at": "2026-11-24T08:57:59.055442",
+    "personas": [
+      "student"
+    ],
+    "takeaways": {},
+    "persona_labels": [
+      "学生"
+    ]
+  },
+  {
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "url": "https://openai.com/index/introducing-shirudo",
+    "source": "OpenAI Blog",
+    "summary_raw": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:00.140627",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "巨头联手意味着企业级AI安全标准正在形成，你要关注自身产品如何通过合规与安全壁垒建立护城河。",
+      "developer": "OpenAI正与思科深度集成网络安全功能，未来开发AI应用时需重点跟进这种软硬结合的安全访问控制方案。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Connected intelligence for in-house legal",
+    "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+    "source": "OpenAI Blog",
+    "summary_raw": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:00.140640",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "企业法务流程正迎来自动化变革，这意味着通过AI替代初级法务文书工作将成为降本增效的新切入点。",
+      "developer": "大模型在垂直法律领域的落地正从通用对话转向任务流整合，建议关注如何通过RAG技术构建高可信的法律合规检索系统。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Richpanel helps companies automate 50% of support in 30 days",
+    "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+    "source": "OpenAI Blog",
+    "summary_raw": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:00.140645",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "搜索平台正加速向生产力工具转型，企业应关注如何利用此类AI生成功能，快速完成行业研究并沉淀企业知识资产。",
-      "creator": "这一功能彻底降低了深度调研的门槛，助你一键将复杂信息转化为精美长文，是快速产出高价值内容的神器。"
+      "founder": "别再单纯靠堆人力做客服了，这套工具能帮你把一半的售后流程自动化，大幅降低运营成本并提升响应速度。",
+      "creator": "这说明AI客服已进入规模化落地阶段，你可以以此为切入点制作‘AI如何重塑职场’类选题，探讨客服岗位被替代的现实案例。"
     },
     "persona_labels": [
       "创业者",
@@ -42,104 +111,54 @@
     ]
   },
   {
-    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-    "url": "https://git-aarvin.github.io/mei/",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 376,
-    "fetched_at": "2026-11-23T06:27:25.866106",
-    "summary_zh": "谷歌全新模型 Gemini 4 Neon 已登顶 Models Engineering Index 榜首。该模型凭借卓越的技术架构实现性能领先，在评估指标上超越了现有的主流竞争对手，代表了当前大模型工程领域的最前沿水平。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "谷歌模型重回第一，意味着AI技术栈格局生变，你需要重新评估公司底层AI服务选型，考虑迁移成本与性能收益。",
-      "developer": "榜单易主说明底层架构已迭代，建议尽快在测试环境接入API进行压力测试，确保核心业务能吃上这波性能红利。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Combatting adversarial distillation",
-    "url": "https://openai.com/index/combatting-adversarial-distillation",
-    "source": "OpenAI Blog",
-    "summary_raw": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.069903",
-    "summary_zh": "OpenAI推出了一种名为“对抗性蒸馏”的多层防御体系，通过结合模型训练、安全防护、检测与强制执行等手段，防止外部通过提取手段窃取模型的核心能力。这项举措不仅是对抗恶意模型克隆的重要技术升级，也为AI知识产权保护和模型安全性提供了行业参考范式。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "别再担心模型被轻易克隆，这项技术能保护你的核心知识产权，让技术护城河真正站得住脚。",
-      "developer": "这是目前对抗模型窃取的最前沿方案，通过多层防御机制提升安全性，是后续构建AI系统时的标配参考。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-    "url": "https://openai.com/business/customer-stories/hebbia",
-    "source": "OpenAI Blog",
-    "summary_raw": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.069907",
-    "summary_zh": "AI初创公司Hebbia在金融研究任务中测试了GPT-6 Astra模型，评估显示其在信息覆盖广度、引用准确性和报告呈现质量上均有显著提升。作为前瞻性应用案例，此次测试体现了下一代大模型在处理高精度金融分析任务上的潜力和演进方向。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "金融分析正迈向高精度自动化，未来利用此类AI模型能大幅降低行业研究成本，需尽早储备AI工作流以构筑壁垒。",
-      "developer": "大模型在引用准确性上的提升，意味着RAG系统将更依赖原生模型推理，开发者应关注如何利用超大上下文处理复杂数据。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Can AI help scientists identify promising drug candidates?",
-    "url": "https://openai.com/index/introducing-medchembench",
-    "source": "OpenAI Blog",
-    "summary_raw": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.069913",
-    "summary_zh": "研究人员推出了评估平台MedChemBench，用于测试AI模型在识别分子结构、推理实验数据及筛选药物候选物方面的能力。这一基准测试为评估AI在早期药物研发中的实际效能提供了重要标准，对于加速新药发现进程具有关键意义。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "药物研发领域正迎来标准化评测拐点，你可以关注该基准下的头部模型，作为筛选合作伙伴或布局AI制药业务的技术参考。",
-      "developer": "这是AI制药领域新的技术标尺，你可以利用MedChemBench测试你开发的模型，评估其在分子推理和药物筛选任务中的真实水平。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-    "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
     "source": "TechCrunch AI",
-    "summary_raw": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+    "summary_raw": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.444827",
-    "summary_zh": "Notable Capital、GIC 和 Baillie Gifford 等知名机构近期向 AI 初创公司 Anthropic 投入数十亿美元。这些顶级投资方之所以看好 Anthropic 并押注其 IPO，主要基于对其技术实力及未来市场潜力的深度信心。",
+    "fetched_at": "2026-11-24T08:58:00.589108",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "开发成本将大幅降低，未来你可以用更少的工程师团队，去承担原本需要大中型技术团队才能完成的复杂产品交付。",
+      "developer": "AI将不再只是写代码的辅助工具，它能直接修复错误并提交变更，你正从代码编写者转变为技术方案的审核员与决策者。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+    "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:00.589116",
+    "personas": [
+      "student"
+    ],
+    "takeaways": {},
+    "persona_labels": [
+      "学生"
+    ]
+  },
+  {
+    "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+    "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+    "source": "TechCrunch AI",
+    "summary_raw": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:00.589120",
     "personas": [
       "founder",
       "student"
     ],
     "takeaways": {
-      "founder": "顶级资本对Anthropic的巨额押注，标志着大模型商业化已从技术竞赛转向深层应用落地，创业者需重点关注如何解决垂直领域的差异化需求。",
-      "student": "Anthropic获得巨头资本背书，预示着其在AI行业格局中已跻身顶流，这是判断大模型技术趋势和未来IPO热度的关键参考指标。"
+      "founder": "黄仁勋在风波后的稳固地位，意味着英伟达的战略方向短期内不会动摇，创业者在制定AI产品路线时可继续放心押注其生态。",
+      "student": "这场高管职位保卫战折射出AI领军企业的权力核心逻辑，是理解现代科技巨头如何通过掌握算力重塑行业格局的重要案例。"
     },
     "persona_labels": [
       "创业者",
@@ -147,45 +166,23 @@
     ]
   },
   {
-    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-    "source": "TechCrunch AI",
-    "summary_raw": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+    "title": "A more tailored Google Search that’s uniquely yours",
+    "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "source": "Google AI Blog",
+    "summary_raw": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.444836",
-    "summary_zh": "OpenAI首席科学家提出，若要限制人工智能的发展速度，首要前提是建立一套科学的衡量标准。这一观点引发了业界对如何定义并监管AI迭代进程的关注，为平衡技术突破与安全治理提供了新的切入点。",
+    "fetched_at": "2026-11-24T08:58:00.740849",
     "personas": [
       "founder",
-      "student"
+      "creator"
     ],
     "takeaways": {
-      "founder": "监管风向或将转向标准化考核，你需要提前评估自家产品在行业合规基准下的生存能力。",
-      "student": "AI发展不仅是拼算力，未来制定衡量技术水平的标准将成为核心赛道，值得关注其背后的治理逻辑。"
+      "founder": "谷歌搜索向个性化订阅转型，意味着品牌必须重新布局SEO策略，通过建立深度用户忠诚度来争夺被个性化算法筛选后的流量。",
+      "creator": "谷歌赋予用户定制搜索偏好的能力，创作者应更关注个人IP建设，因为你的受众未来能主动设定搜索结果，从而获得更多垂直曝光。"
     },
     "persona_labels": [
       "创业者",
-      "学生"
-    ]
-  },
-  {
-    "title": "Why data centers are at the center of the Big Tech backlash",
-    "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-    "source": "TechCrunch AI",
-    "summary_raw": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.444839",
-    "summary_zh": "随着大型科技公司不断扩张数据中心版图，相关环境影响与资源消耗引发了广泛争议。记者Paris Marx在新书《超大规模》（Hyperscale）中深入探讨了这一趋势，揭示了数据中心如何成为制约科技巨头权力增长的关键焦点。",
-    "personas": [
-      "founder",
-      "student"
-    ],
-    "takeaways": {
-      "founder": "数据中心合规与资源成本将是未来的隐形成本，你在制定长期商业战略时需评估算力供给受限及环保监管带来的风险。",
-      "student": "通过关注大型数据中心带来的能源和环境争议，你能更全面地理解科技巨头在扩张算力时所面临的社会与政策博弈。"
-    },
-    "persona_labels": [
-      "创业者",
-      "学生"
+      "内容创作者"
     ]
   },
   {
@@ -194,15 +191,14 @@
     "source": "Google AI Blog",
     "summary_raw": "Gemini spark on a space background",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.654755",
-    "summary_zh": "谷歌在 Gemini API 中正式引入“工具检索”（Tool Retrieval）功能，支持模型在处理复杂请求时自动从海量候选工具中识别并调用最合适的接口。此举显著降低了开发者手动配置函数调用的负担，提升了 Gemini 处理复杂业务场景的自动化与智能化能力。",
+    "fetched_at": "2026-11-24T08:58:00.740858",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "这意味着企业接入AI的成本大幅降低，不仅能处理更复杂的业务逻辑，还能让产品具备更强的自动化解决问题能力。",
-      "developer": "你不再需要手动编写冗长的函数调用逻辑，只需把工具库丢给模型，它就能自动识别并准确调用，开发效率显著提升。"
+      "founder": "你的产品现在能通过调用海量外部文档自动回答复杂业务问题，无需再耗费巨资对模型进行繁琐的二次训练。",
+      "developer": "直接利用Gemini API的检索功能，就能让AI即时获取企业私有知识库信息，大幅降低了构建智能检索系统的技术门槛。"
     },
     "persona_labels": [
       "创业者",
@@ -215,15 +211,14 @@
     "source": "Google AI Blog",
     "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\" />Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.654764",
-    "summary_zh": "传记作家沃尔特·艾萨克森（Walter Isaacson）受邀做客谷歌，探讨历史上的创新先驱如何为AI时代的创造力与人类判断力提供启示。这一对谈不仅审视了技术演进，更从人文视角探讨了人类核心能力在人工智能浪潮下的独特价值。",
+    "fetched_at": "2026-11-24T08:58:00.740861",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "别把AI只当降本增效工具，艾萨克森提醒我们要学习天才的思维跨界，在AI时代去定义那些机器无法替代的独特价值。",
-      "creator": "这是极佳的选题素材，通过回顾历史上的创新规律，你能深入浅出地探讨在AI洪流中，普通人该如何保持独立思考与个性。"
+      "founder": "在AI辅助决策的时代，保持跨学科的深度好奇心将是企业建立核心差异化壁垒、激发持续创新的关键动能。",
+      "creator": "与其焦虑AI取代创作，不如借鉴大师视角，将AI视为激发灵感、拓宽叙事维度的得力助手，重构你的个人表达体系。"
     },
     "persona_labels": [
       "创业者",
@@ -231,20 +226,34 @@
     ]
   },
   {
-    "title": "The Gemini app is now available on lower-memory Android devices.",
-    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-    "source": "Google AI Blog",
-    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp\" />The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+    "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+    "url": "https://huggingface.co/blog/allenai/robotrack",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.654766",
-    "summary_zh": "谷歌已将 Gemini 应用的兼容范围扩大至内存较低的安卓设备，用户现可在这些手机上体验 Gemini Live 和自定义图像生成功能。此举显著降低了 AI 工具的使用门槛，让更多入门级手机用户能够通过端侧应用直接调用谷歌的先进模型。",
+    "fetched_at": "2026-11-24T08:58:01.045630",
+    "personas": [
+      "student"
+    ],
+    "takeaways": {},
+    "persona_labels": [
+      "学生"
+    ]
+  },
+  {
+    "title": "How to build and maintain an agentic evaluation",
+    "url": "https://huggingface.co/blog/agentic-evals",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
+    "score": 0,
+    "fetched_at": "2026-11-24T08:58:01.045645",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "AI应用已从高端机下沉至大众市场，未来低配硬件覆盖将成为争夺十亿级存量用户规模的关键战点。",
-      "developer": "谷歌通过模型轻量化打通低内存设备，这预示着端侧AI将不再局限于旗舰机，你需要优化代码以适配更广泛的长尾机型。"
+      "founder": "别盲目堆AI功能，你需要建立一套客观评估体系，防止AI在实际业务中“一本正经地胡说八道”，从而降低运营风险。",
+      "developer": "这是目前AI应用落地的痛点，学会如何搭建自动化评估框架，将成为你开发智能体项目时提升代码质量和稳定性的核心竞争力。"
     },
     "persona_labels": [
       "创业者",
@@ -257,57 +266,14 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.923294",
-    "summary_zh": "Inkling 2 Mini 正式发布，这款紧凑型设备旨在为本地计算环境提供高性能的算力支持。该产品通过优化小型化硬件架构，在保持高性能的同时降低了部署门槛，是个人开发者或边缘计算场景中提升效率的有力选择。",
+    "fetched_at": "2026-11-24T08:58:01.045649",
     "personas": [
       "developer",
       "founder"
     ],
     "takeaways": {
-      "developer": "这是打造个人本地AI环境的新利器，让你不必依赖昂贵的云服务器，就能在桌面端流畅运行复杂模型和开发任务。",
-      "founder": "边缘计算成本正在大幅下降，你可以利用这类低门槛算力设备，快速部署私有化业务，有效降低技术基础设施的运营支出。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
-    ]
-  },
-  {
-    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-    "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.923307",
-    "summary_zh": "Harness 推出了“适配器（harness adapters）”功能，允许开发者将自定义模型无缝集成至其平台，以优化推理性能并降低成本。此举为企业利用现有模型资产提升交付效率提供了更灵活的方案，进一步强化了 Harness 在人工智能基础设施领域的集成能力。",
-    "personas": [
-      "founder",
-      "developer"
-    ],
-    "takeaways": {
-      "founder": "通过接入私有模型优化推理成本，企业能以更低预算实现定制化AI功能的落地与规模化交付。",
-      "developer": "该工具允许你直接通过插件方式集成现有模型，无需重构即可显著提升推理性能并简化开发运维流程。"
-    },
-    "persona_labels": [
-      "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-    "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-23T06:27:27.923311",
-    "summary_zh": null,
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "这款模型通过优化后训练流程，让你在消费级显卡上就能跑出媲美大模型的性能，是降低本地部署成本的好选择。",
-      "founder": "模型后训练效率的提升意味着AI应用部署门槛进一步降低，你的产品可以以更低算力成本实现更高阶的智能化功能。"
+      "developer": "如果你想在本地部署高性能AI但受限于显存，这款轻量级模型能让你以更低硬件门槛跑通尖端任务。",
+      "founder": "AI本地化趋势正加速，这意味着未来企业处理敏感数据时，无需依赖云端也能获得顶尖的算力支持。"
     },
     "persona_labels": [
       "程序员",
