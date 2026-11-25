@@ -1,19 +1,19 @@
 [
   {
-    "title": "VP ≠ VNP over Every Field",
-    "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+    "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+    "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 326,
-    "fetched_at": "2026-11-24T08:57:59.240975",
-    "summary_zh": null,
+    "score": 499,
+    "fetched_at": "2026-11-25T07:35:14.263310",
+    "summary_zh": "近日，研究人员在矩阵乘法算法领域取得突破，证明其计算复杂度可降低至 Θ(n^2.25)。这一成果进一步逼近了理论上的最优极限，有望大幅提升人工智能及高性能计算处理大规模数据的底层运算效率。",
     "personas": [
       "student",
       "developer"
     ],
     "takeaways": {
-      "student": "这打破了对复杂计算的固有认知，证明并非所有问题都能通过通用计算简化，是理解前沿算法局限性的硬核知识。",
-      "developer": "在设计高性能系统或复杂逻辑时，需警惕某些计算场景无法被低成本覆盖，避免在算法选型上走入盲目优化的误区。"
+      "student": "这是计算科学的重大进步，预示着未来AI处理大规模数据的速度将大幅提升，值得作为前沿动态储备。",
+      "developer": "随着算法复杂度逼近极限，未来高性能计算库的底层效率将进一步优化，开发者可关注后续框架更新以提升性能。"
     },
     "persona_labels": [
       "学生",
@@ -21,49 +21,20 @@
     ]
   },
   {
-    "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
     "source": "Hacker News",
     "summary_raw": "",
-    "score": 166,
-    "fetched_at": "2026-11-24T08:57:59.447231",
-    "personas": [
-      "student"
-    ],
-    "takeaways": {},
-    "persona_labels": [
-      "学生"
-    ]
-  },
-  {
-    "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-    "url": "https://openai.com/index/introducing-shirudo/",
-    "source": "Hacker News",
-    "summary_raw": "",
-    "score": 67,
-    "fetched_at": "2026-11-24T08:57:59.055442",
-    "personas": [
-      "student"
-    ],
-    "takeaways": {},
-    "persona_labels": [
-      "学生"
-    ]
-  },
-  {
-    "title": "OpenAI and Cisco introduce Shirudo",
-    "url": "https://openai.com/index/introducing-shirudo",
-    "source": "OpenAI Blog",
-    "summary_raw": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-    "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.140627",
+    "score": 245,
+    "fetched_at": "2026-11-25T07:35:14.263316",
+    "summary_zh": "OpenAI的GPT-6模型被证实具备了无需专门训练即可直接进行蛋白质设计的能力。这一突破意味着大模型在跨学科应用中表现出更强的科学推理潜力，有望极大缩短药物研发与生物工程的实验周期。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "巨头联手意味着企业级AI安全标准正在形成，你要关注自身产品如何通过合规与安全壁垒建立护城河。",
-      "developer": "OpenAI正与思科深度集成网络安全功能，未来开发AI应用时需重点跟进这种软硬结合的安全访问控制方案。"
+      "founder": "生物科技的研发门槛被大幅拉低，你需要关注AI驱动的新药研发赛道，寻找与现有生物制药巨头错位竞争的切入点。",
+      "developer": "大模型的通用推理能力正向物理生物领域外溢，建议关注蛋白质结构相关的开源模型与API，探索跨学科的开发应用。"
     },
     "persona_labels": [
       "创业者",
@@ -71,19 +42,20 @@
     ]
   },
   {
-    "title": "Connected intelligence for in-house legal",
-    "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-    "source": "OpenAI Blog",
-    "summary_raw": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-    "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.140640",
+    "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+    "url": "https://news.ycombinator.com/item?id=50630809",
+    "source": "Hacker News",
+    "summary_raw": "",
+    "score": 245,
+    "fetched_at": "2026-11-25T07:35:14.463931",
+    "summary_zh": "一位开发者在Hacker News发帖称，其公司遭到Anthropic指控非法使用模型进行“蒸馏”（distillation），目前正面临如何自证清白的难题。这一事件引发了技术社区对AI模型使用合规性、溯源鉴定难度以及大模型厂商数据管控边界的广泛讨论。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "企业法务流程正迎来自动化变革，这意味着通过AI替代初级法务文书工作将成为降本增效的新切入点。",
-      "developer": "大模型在垂直法律领域的落地正从通用对话转向任务流整合，建议关注如何通过RAG技术构建高可信的法律合规检索系统。"
+      "founder": "别把AI模型API当作法外之地，若不保留清晰的开发日志和数据源记录，未来可能面临法律指控和合规风险。",
+      "developer": "大模型厂商正加强对蒸馏行为的追踪，通过技术手段复现模型表现存在合规隐患，务必建立严格的合规审计流程。"
     },
     "persona_labels": [
       "创业者",
@@ -91,19 +63,125 @@
     ]
   },
   {
-    "title": "Richpanel helps companies automate 50% of support in 30 days",
-    "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+    "title": "How Intentful uses dots to make more time for growth",
+    "url": "https://openai.com/business/customer-stories/intentful-dots",
     "source": "OpenAI Blog",
-    "summary_raw": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+    "summary_raw": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.140645",
+    "fetched_at": "2026-11-25T07:35:15.376299",
+    "summary_zh": "AI初创公司Intentful推出了一款名为Aria的“点（dot）”智能代理，能够自动执行搜索网站、撰写提案及处理待办事项等任务。该技术通过主动介入工作流并解决潜在问题，展示了AI从简单的生成工具向深度自动化生产力助手演进的新方向。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "AI正从聊天转为主动干活，你需要重新思考如何利用代理工具降低人力成本，优化团队的业务流程。",
+      "developer": "这是Agent工作流落地的最新范例，建议关注其如何将多任务自动拆解并嵌入到复杂的操作环境中。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "How iFood scales coding agents across 15,000 repositories",
+    "url": "https://openai.com/business/customer-stories/ifood",
+    "source": "OpenAI Blog",
+    "summary_raw": "",
+    "score": 0,
+    "fetched_at": "2026-11-25T07:35:15.376304",
+    "summary_zh": "巴西外卖巨头iFood已将其AI编程代理系统部署至全公司1.5万个代码库中，旨在通过自动化手段大幅提升软件开发效率。此举展示了大规模AI辅助编码在复杂企业级架构中的落地潜力，标志着AI代理正从单一工具向全栈开发协作转型。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "验证了AI提效在大型企业已具规模化可行性，你应该评估内部流程，考虑引入AI代理以优化臃肿的研发成本结构。",
+      "developer": "AI已深入企业底层架构，不仅能写简单代码，更具备了跨库协作能力，你需要尽早掌握AI代理调优与工程化应用技能。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "source": "OpenAI Blog",
+    "summary_raw": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+    "score": 0,
+    "fetched_at": "2026-11-25T07:35:15.376308",
+    "summary_zh": "销售自动化平台 Clay 正式集成 GPT-4 及 Codex 模型，旨在通过自动化数据挖掘与分析，帮助销售团队更高效地制定获客策略。此次升级利用大模型强大的推理能力，将繁琐的客户研究转化为可执行的销售方案，显著提升了 B2B 销售的精准度与转化效率。",
+    "personas": [
+      "founder",
+      "developer"
+    ],
+    "takeaways": {
+      "founder": "B2B销售正从人力密集转向AI驱动，你需要重新审视获客流程的自动化方案，以免在获客效率上被竞争对手甩开。",
+      "developer": "销售工具正通过集成LLM重塑工作流，这提醒你API集成方案已成为 SaaS 产品实现差异化竞争的关键切入点。"
+    },
+    "persona_labels": [
+      "创业者",
+      "程序员"
+    ]
+  },
+  {
+    "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+    "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+    "source": "TechCrunch AI",
+    "summary_raw": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+    "score": 0,
+    "fetched_at": "2026-11-25T07:35:15.679462",
+    "summary_zh": "耶鲁大学管理学院教授杰弗里·桑内费尔德（Jeffrey Sonnenfeld）公开批评黄仁勋重返英伟达董事会，认为此举会使英伟达陷入法律诉讼风险，且对美国工业实力构成了隐忧。这一观点挑战了市场对英伟达的普遍乐观情绪，引发了外界对公司治理结构及其在国家产业竞争中角色的深度反思。",
+    "personas": [
+      "founder",
+      "student"
+    ],
+    "takeaways": {
+      "founder": "警惕核心高管过于集权的风险，反思过度依赖单一巨头是否会动摇企业自身的长期抗风险能力。",
+      "student": "了解半导体行业不只有技术竞争，公司治理结构和法律合规也是判断巨头能否长青的关键指标。"
+    },
+    "persona_labels": [
+      "创业者",
+      "学生"
+    ]
+  },
+  {
+    "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+    "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+    "source": "TechCrunch AI",
+    "summary_raw": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+    "score": 0,
+    "fetched_at": "2026-11-25T07:35:15.679469",
+    "summary_zh": "英伟达CEO黄仁勋近日重申，他认为设立继任计划会制造不必要的等级制度，倾向于通过更扁平的管理结构来运行公司。考虑到英伟达近期刚刚经历了一段创始人短暂缺席的“压力测试”，这一坚持引发了外界对公司治理模式与抗风险能力的广泛讨论。",
+    "personas": [
+      "founder",
+      "student"
+    ],
+    "takeaways": {
+      "founder": "不要盲目套用大公司架构，扁平化管理若能辅以极强的执行文化，反而是提升组织决策效率的关键壁垒。",
+      "student": "这是顶尖科技公司如何构建组织架构的生动案例，不仅看技术，也要观察企业如何通过管理创新来对抗大公司病。"
+    },
+    "persona_labels": [
+      "创业者",
+      "学生"
+    ]
+  },
+  {
+    "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+    "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+    "source": "TechCrunch AI",
+    "summary_raw": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+    "score": 0,
+    "fetched_at": "2026-11-25T07:35:15.679473",
+    "summary_zh": "英伟达首席执行官黄仁勋在全员大会上向员工致歉，并感谢白宫对其领导力的支持，同时坦言自己正在接受心理治疗以应对压力。此次公开表态展现了公司高层在应对扩张挑战时的个人脆弱感与韧性，引发了业界对科技领袖心理健康及英伟达内部管理动态的关注。",
     "personas": [
       "founder",
       "creator"
     ],
     "takeaways": {
-      "founder": "别再单纯靠堆人力做客服了，这套工具能帮你把一半的售后流程自动化，大幅降低运营成本并提升响应速度。",
-      "creator": "这说明AI客服已进入规模化落地阶段，你可以以此为切入点制作‘AI如何重塑职场’类选题，探讨客服岗位被替代的现实案例。"
+      "founder": "创始人需正视高压下的心理调适，不仅是管理业务，学会管理个人状态也是企业持续增长的关键一环。",
+      "creator": "这不仅是科技新闻，更是极具讨论度的职场话题，以此探讨顶级精英的焦虑，能极易引发当代人的情感共鸣。"
     },
     "persona_labels": [
       "创业者",
@@ -111,58 +189,24 @@
     ]
   },
   {
-    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-    "source": "TechCrunch AI",
-    "summary_raw": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+    "title": "How Gemini is changing the game for Golden State's organization and fans.",
+    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "source": "Google AI Blog",
+    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp\" />Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.589108",
+    "fetched_at": "2026-11-25T07:35:15.804084",
+    "summary_zh": "金州勇士队宣布与Google Gemini达成战略合作，将利用AI技术优化球队的商业运营，并为勇士队、Valkyries女篮及大通中心球馆的球迷提供个性化的互动体验。此举标志着生成式AI正式深度嵌入职业体育生态，为球队数字化转型与粉丝粘性管理提供了新的范式。",
     "personas": [
       "founder",
-      "developer"
+      "creator"
     ],
     "takeaways": {
-      "founder": "开发成本将大幅降低，未来你可以用更少的工程师团队，去承担原本需要大中型技术团队才能完成的复杂产品交付。",
-      "developer": "AI将不再只是写代码的辅助工具，它能直接修复错误并提交变更，你正从代码编写者转变为技术方案的审核员与决策者。"
+      "founder": "参考勇士队的案例，你可以将AI引入传统业务的运营端，通过个性化服务提升用户粘性，这是实体行业数字化转型的新范本。",
+      "creator": "这不仅是体育新闻，更是商业AI落地案例，你可以从‘AI如何重塑粉丝经济’的角度切入，为你的观众拆解未来球馆的智能互动。"
     },
     "persona_labels": [
       "创业者",
-      "程序员"
-    ]
-  },
-  {
-    "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-    "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-    "source": "TechCrunch AI",
-    "summary_raw": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-    "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.589116",
-    "personas": [
-      "student"
-    ],
-    "takeaways": {},
-    "persona_labels": [
-      "学生"
-    ]
-  },
-  {
-    "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-    "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-    "source": "TechCrunch AI",
-    "summary_raw": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-    "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.589120",
-    "personas": [
-      "founder",
-      "student"
-    ],
-    "takeaways": {
-      "founder": "黄仁勋在风波后的稳固地位，意味着英伟达的战略方向短期内不会动摇，创业者在制定AI产品路线时可继续放心押注其生态。",
-      "student": "这场高管职位保卫战折射出AI领军企业的权力核心逻辑，是理解现代科技巨头如何通过掌握算力重塑行业格局的重要案例。"
-    },
-    "persona_labels": [
-      "创业者",
-      "学生"
+      "内容创作者"
     ]
   },
   {
@@ -171,18 +215,19 @@
     "source": "Google AI Blog",
     "summary_raw": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.740849",
+    "fetched_at": "2026-11-25T07:35:15.804093",
+    "summary_zh": "谷歌宣布推出更具个性化的搜索功能，通过整合Gmail、云端硬盘、相册及日历等个人数据，为用户提供量身定制的搜索体验。此举标志着谷歌搜索正从单纯的信息检索工具，转型为深度集成个人数字资产的“个人智能”中心。",
     "personas": [
       "founder",
-      "creator"
+      "developer"
     ],
     "takeaways": {
-      "founder": "谷歌搜索向个性化订阅转型，意味着品牌必须重新布局SEO策略，通过建立深度用户忠诚度来争夺被个性化算法筛选后的流量。",
-      "creator": "谷歌赋予用户定制搜索偏好的能力，创作者应更关注个人IP建设，因为你的受众未来能主动设定搜索结果，从而获得更多垂直曝光。"
+      "founder": "搜索入口正从公域转向私域，这预示着垂直领域AI助手整合个人数据的商业潜力巨大。",
+      "developer": "谷歌开放了更深层的个人数据接口，开发者可探索如何利用这些上下文信息构建更精准的个性化应用。"
     },
     "persona_labels": [
       "创业者",
-      "内容创作者"
+      "程序员"
     ]
   },
   {
@@ -191,14 +236,15 @@
     "source": "Google AI Blog",
     "summary_raw": "Gemini spark on a space background",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.740858",
+    "fetched_at": "2026-11-25T07:35:15.804097",
+    "summary_zh": "Google Gemini API 现已引入“工具检索”（Tool Retrieval）功能，支持模型在处理复杂指令时自动调用数千个外部工具。此更新大幅提升了 Gemini 处理复杂业务逻辑的灵活性，使其能够更高效地应对企业级场景下的多工具协同任务。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "你的产品现在能通过调用海量外部文档自动回答复杂业务问题，无需再耗费巨资对模型进行繁琐的二次训练。",
-      "developer": "直接利用Gemini API的检索功能，就能让AI即时获取企业私有知识库信息，大幅降低了构建智能检索系统的技术门槛。"
+      "founder": "企业AI应用将不再局限于简单问答，能直接调用数千个业务工具，帮你更低成本地构建自动化工作流。",
+      "developer": "无需手动维护繁琐的工具映射，通过调用新API即可让模型自动按需匹配工具，大幅降低复杂业务的开发难度。"
     },
     "persona_labels": [
       "创业者",
@@ -206,23 +252,24 @@
     ]
   },
   {
-    "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-    "source": "Google AI Blog",
-    "summary_raw": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\" />Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+    "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+    "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+    "source": "Hugging Face Blog",
+    "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:00.740861",
+    "fetched_at": "2026-11-25T07:35:16.102677",
+    "summary_zh": "NVIDIA发布了基于Isaac Lab和Newton物理引擎的“Microduck”避障工作流，旨在实现机器人从模拟环境到真实世界的无缝迁移。该方案通过高保真仿真技术显著缩短了开发周期，为提升复杂环境下移动机器人的自主避障能力提供了高效的训练范式。",
     "personas": [
       "founder",
-      "creator"
+      "developer"
     ],
     "takeaways": {
-      "founder": "在AI辅助决策的时代，保持跨学科的深度好奇心将是企业建立核心差异化壁垒、激发持续创新的关键动能。",
-      "creator": "与其焦虑AI取代创作，不如借鉴大师视角，将AI视为激发灵感、拓宽叙事维度的得力助手，重构你的个人表达体系。"
+      "founder": "这意味着机器人研发成本将大幅降低，你可以利用这套仿真方案加速产品落地，在竞争中抢占时间窗口。",
+      "developer": "该工作流能帮你解决仿真与实机不一致的难题，利用Isaac Lab高效训练模型并直接部署，减少重复调试工作。"
     },
     "persona_labels": [
       "创业者",
-      "内容创作者"
+      "程序员"
     ]
   },
   {
@@ -231,13 +278,19 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:01.045630",
+    "fetched_at": "2026-11-25T07:35:16.102686",
+    "summary_zh": "研究人员推出了RoboTrack，一种专为机器人操控设计的点跟踪算法。该技术显著提升了机器人在复杂、动态现实环境中的物体追踪精度，为实现更灵活、智能的自动化操作提供了关键技术支持。",
     "personas": [
-      "student"
+      "founder",
+      "developer"
     ],
-    "takeaways": {},
+    "takeaways": {
+      "founder": "这项技术能降低机器人处理非标任务的门槛，是布局智能自动化产线或服务机器人赛道时值得关注的技术护城河。",
+      "developer": "这是目前机器人视觉感知领域的最新开源方案，可直接调用该算法提升你项目在复杂环境下的物体追踪稳定性。"
+    },
     "persona_labels": [
-      "学生"
+      "创业者",
+      "程序员"
     ]
   },
   {
@@ -246,38 +299,19 @@
     "source": "Hugging Face Blog",
     "summary_raw": "",
     "score": 0,
-    "fetched_at": "2026-11-24T08:58:01.045645",
+    "fetched_at": "2026-11-25T07:35:16.102690",
+    "summary_zh": "这篇文章介绍了构建与维护智能体（Agentic）评估体系的方法论，强调了在自动化决策任务中建立科学评估流程的重要性。随着智能体在复杂场景中的应用日益广泛，这一指南为开发者优化模型性能、确保系统可靠性提供了关键的技术参考。",
     "personas": [
       "founder",
       "developer"
     ],
     "takeaways": {
-      "founder": "别盲目堆AI功能，你需要建立一套客观评估体系，防止AI在实际业务中“一本正经地胡说八道”，从而降低运营风险。",
-      "developer": "这是目前AI应用落地的痛点，学会如何搭建自动化评估框架，将成为你开发智能体项目时提升代码质量和稳定性的核心竞争力。"
+      "founder": "别盲目堆砌智能体功能，建立一套评估标准才能让AI系统真正落地并产生可靠的商业价值。",
+      "developer": "这是打造高可用Agent的实操指南，教你通过标准化测试流程发现模型决策中的逻辑漏洞。"
     },
     "persona_labels": [
       "创业者",
       "程序员"
-    ]
-  },
-  {
-    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-    "url": "https://huggingface.co/blog/inkling2mini",
-    "source": "Hugging Face Blog",
-    "summary_raw": "",
-    "score": 0,
-    "fetched_at": "2026-11-24T08:58:01.045649",
-    "personas": [
-      "developer",
-      "founder"
-    ],
-    "takeaways": {
-      "developer": "如果你想在本地部署高性能AI但受限于显存，这款轻量级模型能让你以更低硬件门槛跑通尖端任务。",
-      "founder": "AI本地化趋势正加速，这意味着未来企业处理敏感数据时，无需依赖云端也能获得顶尖的算力支持。"
-    },
-    "persona_labels": [
-      "程序员",
-      "创业者"
     ]
   }
 ]
